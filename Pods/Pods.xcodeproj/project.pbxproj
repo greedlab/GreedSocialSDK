@@ -1,0 +1,794 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0508C5F23BE7BD54C0B915238C4875BA /* GRShareModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 7981B55EA92E8112F3005F7F290E44A7 /* GRShareModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		05B1D6B859FB627464BA70DE382FC1CC /* UIWindow+Greed.m in Sources */ = {isa = PBXBuildFile; fileRef = B7AEEC070B9B0DA36719D2106566A147 /* UIWindow+Greed.m */; };
+		1B454BA60FB9A78B08AF84D5E6F02866 /* UILabel+Greed.m in Sources */ = {isa = PBXBuildFile; fileRef = 108963E34B06AB66A8EC191176BBAA64 /* UILabel+Greed.m */; };
+		26E407F50226BADAFDE061BCE2CC2EF6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C12053D655DCB0048606D591763C7DD1 /* Foundation.framework */; };
+		2D893B348BA8F5F96D7E89AE3453A34A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C12053D655DCB0048606D591763C7DD1 /* Foundation.framework */; };
+		370CBA921AEE6DB50DB67F520DFDC0C5 /* UIImage+Greed.m in Sources */ = {isa = PBXBuildFile; fileRef = 29957B9CE9C9B9B7F86DE5DE373CE0DE /* UIImage+Greed.m */; };
+		375F7631D2F7D45514F50CC3329989CE /* UIKIT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C39782BB6E7D728951F67579DBFAC1B /* UIKIT.framework */; };
+		3B7851E217D3E260BE1ED41711EBF47C /* NSString+Greed.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ECC93F631AA02B8D23A86907AD22435 /* NSString+Greed.m */; };
+		3CAC9CFBF1126FAC33A9B778AC56CC30 /* GRLoginModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2D9A8B4D2C96B38D0F7C5304831608 /* GRLoginModel.m */; };
+		3F9BAC7812936439588A03868F3C8FB7 /* UIWindow+Greed.h in Headers */ = {isa = PBXBuildFile; fileRef = BFF6B9C2150CAF86579778FC631AFB17 /* UIWindow+Greed.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		427B908E127B1861876F9C8B667C979A /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80E79F93C97C8F4C64EB77BF36B3D294 /* CoreLocation.framework */; };
+		44F1C7E95853B7C1DB0CEFC6FDD11993 /* NSDate+Greed.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D3A6D1A5F395F619E0553526ABEBBF8 /* NSDate+Greed.m */; };
+		49D7D1B08172CBE6B187D6E29A72A46C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB2142C07550D77EA1907EF15FAC38E0 /* CoreGraphics.framework */; };
+		4CBB836C8C941F6CC8EF29DFF7D358D3 /* GRSocial.h in Headers */ = {isa = PBXBuildFile; fileRef = ECBD6B7E275F2C2460CEEA03EBBF33E8 /* GRSocial.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		56136DB6D10182255F2CB128E84A5EE0 /* GRShareModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F8C4C43E813E880879832DBF6A1A6EC /* GRShareModel.m */; };
+		569FB2DCDD2713F58D0BA64E55A718DD /* GreedCategory-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 34D31152EB604A203CB635F9E589685F /* GreedCategory-dummy.m */; };
+		5BDE14F13B8A9E2B1D2B7D4E21E52229 /* GRSocial.m in Sources */ = {isa = PBXBuildFile; fileRef = ED9BD013FA063D1956A329BB73AB6291 /* GRSocial.m */; };
+		6918959E19F4A6E57DD46726BD7CA930 /* NSObject+Greed.m in Sources */ = {isa = PBXBuildFile; fileRef = 6834594E6F89528DC55360DAA31083AE /* NSObject+Greed.m */; };
+		6C37BBD6FDE37DDCE5F6FDD8313B8ABE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C12053D655DCB0048606D591763C7DD1 /* Foundation.framework */; };
+		737CB573777A09AE38493F5B174F46F9 /* UIView+Greed.h in Headers */ = {isa = PBXBuildFile; fileRef = 48FBD910A356F91EE0722A91A95C58E2 /* UIView+Greed.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		76A9E0671AFCBD9AFAE1166E819EEFE1 /* UITextView+Greed.h in Headers */ = {isa = PBXBuildFile; fileRef = 628FD763CFF2F529A04023183FE1D68B /* UITextView+Greed.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		77A6D35BE3093561E1EACEA245D65C75 /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 272643F56613CA0D336AE3DBF19DC404 /* Pods-dummy.m */; };
+		79DB5CAEFF9C55C8D8B84D3A65B4F1F8 /* GreedSocialSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EE5BA626DDC5C6149196FF3E2BFB9842 /* GreedSocialSDK-dummy.m */; };
+		831C87175E852F5FFEBABFB3DC4D773D /* NSString+Greed.h in Headers */ = {isa = PBXBuildFile; fileRef = 41EC77A202E9A03456414ED8660C956B /* NSString+Greed.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		83C2CB9CDB2F89EB89ACA42EF12D5B30 /* NSDate+Greed.h in Headers */ = {isa = PBXBuildFile; fileRef = 09A360E1F187030A4309BA0F17AD5DC7 /* NSDate+Greed.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		88564F61231BD164D75E5717405DDEFC /* UIKIT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C39782BB6E7D728951F67579DBFAC1B /* UIKIT.framework */; };
+		912808DBF0E476EC4E35AACA72D30536 /* GRLoginModel.h in Headers */ = {isa = PBXBuildFile; fileRef = F076F421652D5255CBEDAE9EBC28C41E /* GRLoginModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		96643CB2DFB91518065225D92CF81746 /* UITextView+Greed.m in Sources */ = {isa = PBXBuildFile; fileRef = ED709E73E91FC70B6896FC800433EBFB /* UITextView+Greed.m */; };
+		974EFFB1BA6CA97CBA658F4001049936 /* UIImage+Greed.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EB5DA5AF163EBBB6B2B8ED18360E219 /* UIImage+Greed.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9FC86559FBEFAA793156CA1B1265CFBC /* UIView+Greed.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E44F1C3133B24E12602847234F5C2C7 /* UIView+Greed.m */; };
+		A9F7F4DC9224C1B6EDFBA9496EDE203B /* UILabel+Greed.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BB489CDB8CAA1055249BDA2928E8429 /* UILabel+Greed.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BB2DCEC5E5C6A21819D355EC4EED8569 /* CLLocation+Greed.m in Sources */ = {isa = PBXBuildFile; fileRef = A3663444EB268B4388A3ACDD34C0D99F /* CLLocation+Greed.m */; };
+		E7AB5ADC890ECB6FA868842BB18B1D67 /* CLLocation+Greed.h in Headers */ = {isa = PBXBuildFile; fileRef = A00C7E75B20565EBC8DD15B092D6FC16 /* CLLocation+Greed.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EDE74404C4E3A55F9C4E9142A02ACA04 /* NSObject+Greed.h in Headers */ = {isa = PBXBuildFile; fileRef = FB09E76E8FF9EFA838FF7583AFBEE274 /* NSObject+Greed.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F61F13D84966E9087F661424CAA5DDE9 /* GreedSocialSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = C6E10236278DC3A8498ACC213F508C81 /* GreedSocialSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2A1AE15655B06121E75AF37163008710 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC9EB3FC69F23C207333CF42F77AF715;
+			remoteInfo = GreedCategory;
+		};
+		8150F6E8BFBEBE93F8E9770C50A50A7F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D6A44BC8F129D310E24D1E095884194;
+			remoteInfo = GreedSocialSDK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		097CCA4AEF3943AD46AD71D0567FEAE6 /* WBSDKBasicButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WBSDKBasicButton.h; path = libWeiboSDK/WBSDKBasicButton.h; sourceTree = "<group>"; };
+		09A360E1F187030A4309BA0F17AD5DC7 /* NSDate+Greed.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDate+Greed.h"; path = "GreedCategory/NSDate+Greed.h"; sourceTree = "<group>"; };
+		0C15042D5BD7D3934B8BA02E62A21F12 /* WBSDKCommentButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WBSDKCommentButton.h; path = libWeiboSDK/WBSDKCommentButton.h; sourceTree = "<group>"; };
+		10834806BD7B412BC24F347361FA2C8E /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
+		108963E34B06AB66A8EC191176BBAA64 /* UILabel+Greed.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UILabel+Greed.m"; path = "GreedCategory/UILabel+Greed.m"; sourceTree = "<group>"; };
+		10FD42C88BB02C8F3BA535F210C8AD8B /* WBHttpRequest+WeiboShare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WBHttpRequest+WeiboShare.h"; path = "libWeiboSDK/WBHttpRequest+WeiboShare.h"; sourceTree = "<group>"; };
+		1F8C4C43E813E880879832DBF6A1A6EC /* GRShareModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GRShareModel.m; sourceTree = "<group>"; };
+		1FB2A034D0DCB89153B6CC7DB1EE882A /* WXApiObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
+		272643F56613CA0D336AE3DBF19DC404 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
+		29957B9CE9C9B9B7F86DE5DE373CE0DE /* UIImage+Greed.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Greed.m"; path = "GreedCategory/UIImage+Greed.m"; sourceTree = "<group>"; };
+		2F2D9A8B4D2C96B38D0F7C5304831608 /* GRLoginModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GRLoginModel.m; sourceTree = "<group>"; };
+		34D31152EB604A203CB635F9E589685F /* GreedCategory-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GreedCategory-dummy.m"; sourceTree = "<group>"; };
+		377941EA7D46F051984D9C0150576B14 /* TencentOpenApi_IOS_Bundle.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = TencentOpenApi_IOS_Bundle.bundle; path = All/TencentOpenApi_IOS_Bundle.bundle; sourceTree = "<group>"; };
+		37DB56D75062CC75FCB0966E1C6E8A8E /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		39269928C0B16260C292FDDC85360476 /* WBHttpRequest+WeiboGame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WBHttpRequest+WeiboGame.h"; path = "libWeiboSDK/WBHttpRequest+WeiboGame.h"; sourceTree = "<group>"; };
+		3E44F1C3133B24E12602847234F5C2C7 /* UIView+Greed.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+Greed.m"; path = "GreedCategory/UIView+Greed.m"; sourceTree = "<group>"; };
+		3EB5DA5AF163EBBB6B2B8ED18360E219 /* UIImage+Greed.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Greed.h"; path = "GreedCategory/UIImage+Greed.h"; sourceTree = "<group>"; };
+		41EC77A202E9A03456414ED8660C956B /* NSString+Greed.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+Greed.h"; path = "GreedCategory/NSString+Greed.h"; sourceTree = "<group>"; };
+		48FBD910A356F91EE0722A91A95C58E2 /* UIView+Greed.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+Greed.h"; path = "GreedCategory/UIView+Greed.h"; sourceTree = "<group>"; };
+		4920D13F786BAC977BC8451E46800BFF /* WBHttpRequest+WeiboToken.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WBHttpRequest+WeiboToken.h"; path = "libWeiboSDK/WBHttpRequest+WeiboToken.h"; sourceTree = "<group>"; };
+		4C39782BB6E7D728951F67579DBFAC1B /* UIKIT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKIT.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/UIKIT.framework; sourceTree = DEVELOPER_DIR; };
+		4E762F23EC34ED4A6FF3312D84E33A40 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
+		5C767A3FCB6E4068AFE1D1C8FAD737FA /* WXApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
+		628FD763CFF2F529A04023183FE1D68B /* UITextView+Greed.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITextView+Greed.h"; path = "GreedCategory/UITextView+Greed.h"; sourceTree = "<group>"; };
+		6834594E6F89528DC55360DAA31083AE /* NSObject+Greed.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+Greed.m"; path = "GreedCategory/NSObject+Greed.m"; sourceTree = "<group>"; };
+		6911BECA35E7518D864239B7E898EEF3 /* Pods-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-frameworks.sh"; sourceTree = "<group>"; };
+		6BE293C6957BED24EA668CA705D9CDF2 /* libGreedCategory.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libGreedCategory.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D4D9D4C51E4D08B5A1EE808493507D4 /* TencentOpenAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TencentOpenAPI.framework; path = All/TencentOpenAPI.framework; sourceTree = "<group>"; };
+		6F3AF331ADE5C3F697CF4CF72941CC88 /* libWeiboSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libWeiboSDK.a; path = libWeiboSDK/libWeiboSDK.a; sourceTree = "<group>"; };
+		72E9181CA4A3BDD5164EB8FEBBDF0192 /* WBHttpRequest+WeiboUser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WBHttpRequest+WeiboUser.h"; path = "libWeiboSDK/WBHttpRequest+WeiboUser.h"; sourceTree = "<group>"; };
+		7981B55EA92E8112F3005F7F290E44A7 /* GRShareModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GRShareModel.h; sourceTree = "<group>"; };
+		80E79F93C97C8F4C64EB77BF36B3D294 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/CoreLocation.framework; sourceTree = DEVELOPER_DIR; };
+		86D571D977547877B4DC531AFD3D7441 /* GreedCategory-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GreedCategory-prefix.pch"; sourceTree = "<group>"; };
+		8ECC93F631AA02B8D23A86907AD22435 /* NSString+Greed.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+Greed.m"; path = "GreedCategory/NSString+Greed.m"; sourceTree = "<group>"; };
+		91369EC9DA96C014C08C8E9804B8C0FE /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		98C98CDFB3F20F2925F6CD1F141BB14F /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
+		994C81259CD109BBE2282F8D3685EE3C /* libWeChatSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; path = libWeChatSDK.a; sourceTree = "<group>"; };
+		9BB489CDB8CAA1055249BDA2928E8429 /* UILabel+Greed.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UILabel+Greed.h"; path = "GreedCategory/UILabel+Greed.h"; sourceTree = "<group>"; };
+		9D3A6D1A5F395F619E0553526ABEBBF8 /* NSDate+Greed.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDate+Greed.m"; path = "GreedCategory/NSDate+Greed.m"; sourceTree = "<group>"; };
+		A00C7E75B20565EBC8DD15B092D6FC16 /* CLLocation+Greed.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CLLocation+Greed.h"; path = "GreedCategory/CLLocation+Greed.h"; sourceTree = "<group>"; };
+		A1A36D34413696BE466E2CA0AFF194DA /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
+		A3663444EB268B4388A3ACDD34C0D99F /* CLLocation+Greed.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CLLocation+Greed.m"; path = "GreedCategory/CLLocation+Greed.m"; sourceTree = "<group>"; };
+		B768B4FBB5CF479417E353E684560953 /* WeiboSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WeiboSDK.h; path = libWeiboSDK/WeiboSDK.h; sourceTree = "<group>"; };
+		B7AEEC070B9B0DA36719D2106566A147 /* UIWindow+Greed.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIWindow+Greed.m"; path = "GreedCategory/UIWindow+Greed.m"; sourceTree = "<group>"; };
+		BA104F9BBD2EFD4EE30EC04CB200BD5E /* GreedSocialSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GreedSocialSDK-prefix.pch"; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BB2142C07550D77EA1907EF15FAC38E0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		BEF992E6938A3C414ED407048427C851 /* WechatAuthSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WechatAuthSDK.h; sourceTree = "<group>"; };
+		BFE171E47FEF2C1D86CD3121E0E4CEF1 /* WBSDKRelationshipButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WBSDKRelationshipButton.h; path = libWeiboSDK/WBSDKRelationshipButton.h; sourceTree = "<group>"; };
+		BFF6B9C2150CAF86579778FC631AFB17 /* UIWindow+Greed.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIWindow+Greed.h"; path = "GreedCategory/UIWindow+Greed.h"; sourceTree = "<group>"; };
+		C12053D655DCB0048606D591763C7DD1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		C2CED85830039E1F7ACE9FCE7F3C3D43 /* GreedCategory.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GreedCategory.xcconfig; sourceTree = "<group>"; };
+		C6E10236278DC3A8498ACC213F508C81 /* GreedSocialSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GreedSocialSDK.h; sourceTree = "<group>"; };
+		D435BD5E3237CCB9D48723C955CC679E /* WBHttpRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WBHttpRequest.h; path = libWeiboSDK/WBHttpRequest.h; sourceTree = "<group>"; };
+		EB7BAE2A54DED17184FF8DE8808F76D1 /* WeiboSDK.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = WeiboSDK.bundle; path = libWeiboSDK/WeiboSDK.bundle; sourceTree = "<group>"; };
+		ECBD6B7E275F2C2460CEEA03EBBF33E8 /* GRSocial.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GRSocial.h; sourceTree = "<group>"; };
+		ED55EC8F0186C0DE3855D43381408D14 /* WeiboUser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WeiboUser.h; path = libWeiboSDK/WeiboUser.h; sourceTree = "<group>"; };
+		ED709E73E91FC70B6896FC800433EBFB /* UITextView+Greed.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITextView+Greed.m"; path = "GreedCategory/UITextView+Greed.m"; sourceTree = "<group>"; };
+		ED9BD013FA063D1956A329BB73AB6291 /* GRSocial.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GRSocial.m; sourceTree = "<group>"; };
+		EE5BA626DDC5C6149196FF3E2BFB9842 /* GreedSocialSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GreedSocialSDK-dummy.m"; sourceTree = "<group>"; };
+		F076F421652D5255CBEDAE9EBC28C41E /* GRLoginModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GRLoginModel.h; sourceTree = "<group>"; };
+		F496010BE9DBF1FCAFFA4CCCB60B1030 /* GreedSocialSDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GreedSocialSDK.xcconfig; sourceTree = "<group>"; };
+		F910A50E59C3093FCFAF977D592A6281 /* libGreedSocialSDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libGreedSocialSDK.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB09E76E8FF9EFA838FF7583AFBEE274 /* NSObject+Greed.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+Greed.h"; path = "GreedCategory/NSObject+Greed.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		28812DD1903A9029770DB016E98B9454 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D893B348BA8F5F96D7E89AE3453A34A /* Foundation.framework in Frameworks */,
+				88564F61231BD164D75E5717405DDEFC /* UIKIT.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B8E326DC71A2C341CB7B8C24D52FB21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C37BBD6FDE37DDCE5F6FDD8313B8ABE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C401911107A3A68B26F22698620E7E33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49D7D1B08172CBE6B187D6E29A72A46C /* CoreGraphics.framework in Frameworks */,
+				427B908E127B1861876F9C8B667C979A /* CoreLocation.framework in Frameworks */,
+				26E407F50226BADAFDE061BCE2CC2EF6 /* Foundation.framework in Frameworks */,
+				375F7631D2F7D45514F50CC3329989CE /* UIKIT.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		037C0CA694176A3C0915F62C9D20B3E6 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B3D1D13E0C6553800746CB8FD61CF946 /* Pods */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		0B5FFB03EA354395F8681D3D0972CA74 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B835195C98A67A897270B10F0B7974DC /* GreedSocialSDK */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		0D2B8D857D0D6F9B0A4F684AC6219A19 /* All */ = {
+			isa = PBXGroup;
+			children = (
+				E3D1E8D42E3B6F7929C55437A60F476B /* Frameworks */,
+				F0DF523A650C478D2BBA231F608D5536 /* Resources */,
+			);
+			name = All;
+			sourceTree = "<group>";
+		};
+		14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A3EAEE904F3CFB1E7A2BF6A3DA7659B0 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2A88A3BD6F15B9C5D23F14C27F1C7A5E /* GreedSocialSDK */ = {
+			isa = PBXGroup;
+			children = (
+				C6E10236278DC3A8498ACC213F508C81 /* GreedSocialSDK.h */,
+				F076F421652D5255CBEDAE9EBC28C41E /* GRLoginModel.h */,
+				2F2D9A8B4D2C96B38D0F7C5304831608 /* GRLoginModel.m */,
+				7981B55EA92E8112F3005F7F290E44A7 /* GRShareModel.h */,
+				1F8C4C43E813E880879832DBF6A1A6EC /* GRShareModel.m */,
+				ECBD6B7E275F2C2460CEEA03EBBF33E8 /* GRSocial.h */,
+				ED9BD013FA063D1956A329BB73AB6291 /* GRSocial.m */,
+			);
+			path = GreedSocialSDK;
+			sourceTree = "<group>";
+		};
+		2AC49415EF9BE26117F7B0142492E7BC /* GreedWeChatSDK */ = {
+			isa = PBXGroup;
+			children = (
+				BEF992E6938A3C414ED407048427C851 /* WechatAuthSDK.h */,
+				5C767A3FCB6E4068AFE1D1C8FAD737FA /* WXApi.h */,
+				1FB2A034D0DCB89153B6CC7DB1EE882A /* WXApiObject.h */,
+				4F9258D8154F0159A99B9F414E04C4CA /* Frameworks */,
+			);
+			path = GreedWeChatSDK;
+			sourceTree = "<group>";
+		};
+		4F9258D8154F0159A99B9F414E04C4CA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				994C81259CD109BBE2282F8D3685EE3C /* libWeChatSDK.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		551EC792708F735E5C73F00CCA172AF8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C2CED85830039E1F7ACE9FCE7F3C3D43 /* GreedCategory.xcconfig */,
+				34D31152EB604A203CB635F9E589685F /* GreedCategory-dummy.m */,
+				86D571D977547877B4DC531AFD3D7441 /* GreedCategory-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GreedCategory";
+			sourceTree = "<group>";
+		};
+		55A786E6EA03B3D4E6445CAA341664DB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6F3AF331ADE5C3F697CF4CF72941CC88 /* libWeiboSDK.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5AA5B07E0DE15C6B17F8E1A119508570 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F496010BE9DBF1FCAFFA4CCCB60B1030 /* GreedSocialSDK.xcconfig */,
+				EE5BA626DDC5C6149196FF3E2BFB9842 /* GreedSocialSDK-dummy.m */,
+				BA104F9BBD2EFD4EE30EC04CB200BD5E /* GreedSocialSDK-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "Pods/Target Support Files/GreedSocialSDK";
+			sourceTree = "<group>";
+		};
+		635BD25CF64B17BE1824AAB9DF63F6E7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6BE293C6957BED24EA668CA705D9CDF2 /* libGreedCategory.a */,
+				F910A50E59C3093FCFAF977D592A6281 /* libGreedSocialSDK.a */,
+				91369EC9DA96C014C08C8E9804B8C0FE /* libPods.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6AAD637C9CF369AA491F58AA2089A98E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7531F48023ED9BD3B452EA63C189C939 /* GreedCategory */,
+				9C847DE418ADDFB2F88CD795BE6F2BCB /* GreedTencentOpenAPI */,
+				2AC49415EF9BE26117F7B0142492E7BC /* GreedWeChatSDK */,
+				B718204B793E13C15610D3A25A6D0E96 /* WeiboSDK */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7531F48023ED9BD3B452EA63C189C939 /* GreedCategory */ = {
+			isa = PBXGroup;
+			children = (
+				A00C7E75B20565EBC8DD15B092D6FC16 /* CLLocation+Greed.h */,
+				A3663444EB268B4388A3ACDD34C0D99F /* CLLocation+Greed.m */,
+				09A360E1F187030A4309BA0F17AD5DC7 /* NSDate+Greed.h */,
+				9D3A6D1A5F395F619E0553526ABEBBF8 /* NSDate+Greed.m */,
+				FB09E76E8FF9EFA838FF7583AFBEE274 /* NSObject+Greed.h */,
+				6834594E6F89528DC55360DAA31083AE /* NSObject+Greed.m */,
+				41EC77A202E9A03456414ED8660C956B /* NSString+Greed.h */,
+				8ECC93F631AA02B8D23A86907AD22435 /* NSString+Greed.m */,
+				3EB5DA5AF163EBBB6B2B8ED18360E219 /* UIImage+Greed.h */,
+				29957B9CE9C9B9B7F86DE5DE373CE0DE /* UIImage+Greed.m */,
+				9BB489CDB8CAA1055249BDA2928E8429 /* UILabel+Greed.h */,
+				108963E34B06AB66A8EC191176BBAA64 /* UILabel+Greed.m */,
+				628FD763CFF2F529A04023183FE1D68B /* UITextView+Greed.h */,
+				ED709E73E91FC70B6896FC800433EBFB /* UITextView+Greed.m */,
+				48FBD910A356F91EE0722A91A95C58E2 /* UIView+Greed.h */,
+				3E44F1C3133B24E12602847234F5C2C7 /* UIView+Greed.m */,
+				BFF6B9C2150CAF86579778FC631AFB17 /* UIWindow+Greed.h */,
+				B7AEEC070B9B0DA36719D2106566A147 /* UIWindow+Greed.m */,
+				551EC792708F735E5C73F00CCA172AF8 /* Support Files */,
+			);
+			path = GreedCategory;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				0B5FFB03EA354395F8681D3D0972CA74 /* Development Pods */,
+				14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */,
+				6AAD637C9CF369AA491F58AA2089A98E /* Pods */,
+				635BD25CF64B17BE1824AAB9DF63F6E7 /* Products */,
+				037C0CA694176A3C0915F62C9D20B3E6 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8D6BD43E9C4251AF2E310B4DD97A7446 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EB7BAE2A54DED17184FF8DE8808F76D1 /* WeiboSDK.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		9C847DE418ADDFB2F88CD795BE6F2BCB /* GreedTencentOpenAPI */ = {
+			isa = PBXGroup;
+			children = (
+				0D2B8D857D0D6F9B0A4F684AC6219A19 /* All */,
+			);
+			path = GreedTencentOpenAPI;
+			sourceTree = "<group>";
+		};
+		A3EAEE904F3CFB1E7A2BF6A3DA7659B0 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				BB2142C07550D77EA1907EF15FAC38E0 /* CoreGraphics.framework */,
+				80E79F93C97C8F4C64EB77BF36B3D294 /* CoreLocation.framework */,
+				C12053D655DCB0048606D591763C7DD1 /* Foundation.framework */,
+				4C39782BB6E7D728951F67579DBFAC1B /* UIKIT.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		B3D1D13E0C6553800746CB8FD61CF946 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				37DB56D75062CC75FCB0966E1C6E8A8E /* Pods-acknowledgements.markdown */,
+				10834806BD7B412BC24F347361FA2C8E /* Pods-acknowledgements.plist */,
+				272643F56613CA0D336AE3DBF19DC404 /* Pods-dummy.m */,
+				6911BECA35E7518D864239B7E898EEF3 /* Pods-frameworks.sh */,
+				A1A36D34413696BE466E2CA0AFF194DA /* Pods-resources.sh */,
+				4E762F23EC34ED4A6FF3312D84E33A40 /* Pods.debug.xcconfig */,
+				98C98CDFB3F20F2925F6CD1F141BB14F /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			path = "Target Support Files/Pods";
+			sourceTree = "<group>";
+		};
+		B718204B793E13C15610D3A25A6D0E96 /* WeiboSDK */ = {
+			isa = PBXGroup;
+			children = (
+				D435BD5E3237CCB9D48723C955CC679E /* WBHttpRequest.h */,
+				39269928C0B16260C292FDDC85360476 /* WBHttpRequest+WeiboGame.h */,
+				10FD42C88BB02C8F3BA535F210C8AD8B /* WBHttpRequest+WeiboShare.h */,
+				4920D13F786BAC977BC8451E46800BFF /* WBHttpRequest+WeiboToken.h */,
+				72E9181CA4A3BDD5164EB8FEBBDF0192 /* WBHttpRequest+WeiboUser.h */,
+				097CCA4AEF3943AD46AD71D0567FEAE6 /* WBSDKBasicButton.h */,
+				0C15042D5BD7D3934B8BA02E62A21F12 /* WBSDKCommentButton.h */,
+				BFE171E47FEF2C1D86CD3121E0E4CEF1 /* WBSDKRelationshipButton.h */,
+				B768B4FBB5CF479417E353E684560953 /* WeiboSDK.h */,
+				ED55EC8F0186C0DE3855D43381408D14 /* WeiboUser.h */,
+				55A786E6EA03B3D4E6445CAA341664DB /* Frameworks */,
+				8D6BD43E9C4251AF2E310B4DD97A7446 /* Resources */,
+			);
+			path = WeiboSDK;
+			sourceTree = "<group>";
+		};
+		B835195C98A67A897270B10F0B7974DC /* GreedSocialSDK */ = {
+			isa = PBXGroup;
+			children = (
+				2A88A3BD6F15B9C5D23F14C27F1C7A5E /* GreedSocialSDK */,
+				5AA5B07E0DE15C6B17F8E1A119508570 /* Support Files */,
+			);
+			name = GreedSocialSDK;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		E3D1E8D42E3B6F7929C55437A60F476B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6D4D9D4C51E4D08B5A1EE808493507D4 /* TencentOpenAPI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F0DF523A650C478D2BBA231F608D5536 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				377941EA7D46F051984D9C0150576B14 /* TencentOpenApi_IOS_Bundle.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0D9E3516ACCBF89815420CEA63BF605E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7AB5ADC890ECB6FA868842BB18B1D67 /* CLLocation+Greed.h in Headers */,
+				83C2CB9CDB2F89EB89ACA42EF12D5B30 /* NSDate+Greed.h in Headers */,
+				EDE74404C4E3A55F9C4E9142A02ACA04 /* NSObject+Greed.h in Headers */,
+				831C87175E852F5FFEBABFB3DC4D773D /* NSString+Greed.h in Headers */,
+				974EFFB1BA6CA97CBA658F4001049936 /* UIImage+Greed.h in Headers */,
+				A9F7F4DC9224C1B6EDFBA9496EDE203B /* UILabel+Greed.h in Headers */,
+				76A9E0671AFCBD9AFAE1166E819EEFE1 /* UITextView+Greed.h in Headers */,
+				737CB573777A09AE38493F5B174F46F9 /* UIView+Greed.h in Headers */,
+				3F9BAC7812936439588A03868F3C8FB7 /* UIWindow+Greed.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A79A3B6210AC75FA2B2195BB6720121 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F61F13D84966E9087F661424CAA5DDE9 /* GreedSocialSDK.h in Headers */,
+				912808DBF0E476EC4E35AACA72D30536 /* GRLoginModel.h in Headers */,
+				0508C5F23BE7BD54C0B915238C4875BA /* GRShareModel.h in Headers */,
+				4CBB836C8C941F6CC8EF29DFF7D358D3 /* GRSocial.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4D6A44BC8F129D310E24D1E095884194 /* GreedSocialSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3D18107F6D7D5218D30152AAFD0C04B /* Build configuration list for PBXNativeTarget "GreedSocialSDK" */;
+			buildPhases = (
+				757DD0CA0C138F9495F6EE780CF98938 /* Sources */,
+				28812DD1903A9029770DB016E98B9454 /* Frameworks */,
+				4A79A3B6210AC75FA2B2195BB6720121 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GreedSocialSDK;
+			productName = GreedSocialSDK;
+			productReference = F910A50E59C3093FCFAF977D592A6281 /* libGreedSocialSDK.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		CC9EB3FC69F23C207333CF42F77AF715 /* GreedCategory */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C737074FD9368FE6251D344C86C3BF8A /* Build configuration list for PBXNativeTarget "GreedCategory" */;
+			buildPhases = (
+				C9F2A16B30EA0209FF5608BED77B9C48 /* Sources */,
+				C401911107A3A68B26F22698620E7E33 /* Frameworks */,
+				0D9E3516ACCBF89815420CEA63BF605E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GreedCategory;
+			productName = GreedCategory;
+			productReference = 6BE293C6957BED24EA668CA705D9CDF2 /* libGreedCategory.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		F530E6AB7A928B521B58C6959587FA6A /* Pods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F20DDD567468825FE809E3A3E50A7380 /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildPhases = (
+				A24A296AD6B65515E5C5CB4AD26942AB /* Sources */,
+				2B8E326DC71A2C341CB7B8C24D52FB21 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A590E141773344CC2E520060F32FC43 /* PBXTargetDependency */,
+				DA1AC3A79A8471EA21CE1BD7DB28A951 /* PBXTargetDependency */,
+			);
+			name = Pods;
+			productName = Pods;
+			productReference = 91369EC9DA96C014C08C8E9804B8C0FE /* libPods.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 635BD25CF64B17BE1824AAB9DF63F6E7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC9EB3FC69F23C207333CF42F77AF715 /* GreedCategory */,
+				4D6A44BC8F129D310E24D1E095884194 /* GreedSocialSDK */,
+				F530E6AB7A928B521B58C6959587FA6A /* Pods */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		757DD0CA0C138F9495F6EE780CF98938 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79DB5CAEFF9C55C8D8B84D3A65B4F1F8 /* GreedSocialSDK-dummy.m in Sources */,
+				3CAC9CFBF1126FAC33A9B778AC56CC30 /* GRLoginModel.m in Sources */,
+				56136DB6D10182255F2CB128E84A5EE0 /* GRShareModel.m in Sources */,
+				5BDE14F13B8A9E2B1D2B7D4E21E52229 /* GRSocial.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A24A296AD6B65515E5C5CB4AD26942AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77A6D35BE3093561E1EACEA245D65C75 /* Pods-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9F2A16B30EA0209FF5608BED77B9C48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB2DCEC5E5C6A21819D355EC4EED8569 /* CLLocation+Greed.m in Sources */,
+				569FB2DCDD2713F58D0BA64E55A718DD /* GreedCategory-dummy.m in Sources */,
+				44F1C7E95853B7C1DB0CEFC6FDD11993 /* NSDate+Greed.m in Sources */,
+				6918959E19F4A6E57DD46726BD7CA930 /* NSObject+Greed.m in Sources */,
+				3B7851E217D3E260BE1ED41711EBF47C /* NSString+Greed.m in Sources */,
+				370CBA921AEE6DB50DB67F520DFDC0C5 /* UIImage+Greed.m in Sources */,
+				1B454BA60FB9A78B08AF84D5E6F02866 /* UILabel+Greed.m in Sources */,
+				96643CB2DFB91518065225D92CF81746 /* UITextView+Greed.m in Sources */,
+				9FC86559FBEFAA793156CA1B1265CFBC /* UIView+Greed.m in Sources */,
+				05B1D6B859FB627464BA70DE382FC1CC /* UIWindow+Greed.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5A590E141773344CC2E520060F32FC43 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GreedCategory;
+			target = CC9EB3FC69F23C207333CF42F77AF715 /* GreedCategory */;
+			targetProxy = 2A1AE15655B06121E75AF37163008710 /* PBXContainerItemProxy */;
+		};
+		DA1AC3A79A8471EA21CE1BD7DB28A951 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GreedSocialSDK;
+			target = 4D6A44BC8F129D310E24D1E095884194 /* GreedSocialSDK */;
+			targetProxy = 8150F6E8BFBEBE93F8E9770C50A50A7F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		17E07120CCD0387948FD1A10EF6043A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98C98CDFB3F20F2925F6CD1F141BB14F /* Pods.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		25EC1F37348F480AC1A530BC5FEB139C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F496010BE9DBF1FCAFFA4CCCB60B1030 /* GreedSocialSDK.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/GreedSocialSDK/GreedSocialSDK-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		6569F07DC21AD8B72752685013E3D9D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		7C2BC60DCAFEC72FD8D98F01869A4750 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E762F23EC34ED4A6FF3312D84E33A40 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		7D9AAC5B2C896697252596EC2A1A46C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F496010BE9DBF1FCAFFA4CCCB60B1030 /* GreedSocialSDK.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/GreedSocialSDK/GreedSocialSDK-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		A14E2444F162A20E3776820E0ADFFB52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C94CC8BB18F1F73CB594F0ED2CEDFA3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2CED85830039E1F7ACE9FCE7F3C3D43 /* GreedCategory.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/GreedCategory/GreedCategory-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		EF449A349388A46D0625656B2A8F288C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2CED85830039E1F7ACE9FCE7F3C3D43 /* GreedCategory.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/GreedCategory/GreedCategory-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6569F07DC21AD8B72752685013E3D9D8 /* Debug */,
+				A14E2444F162A20E3776820E0ADFFB52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C737074FD9368FE6251D344C86C3BF8A /* Build configuration list for PBXNativeTarget "GreedCategory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C94CC8BB18F1F73CB594F0ED2CEDFA3B /* Debug */,
+				EF449A349388A46D0625656B2A8F288C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3D18107F6D7D5218D30152AAFD0C04B /* Build configuration list for PBXNativeTarget "GreedSocialSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25EC1F37348F480AC1A530BC5FEB139C /* Debug */,
+				7D9AAC5B2C896697252596EC2A1A46C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F20DDD567468825FE809E3A3E50A7380 /* Build configuration list for PBXNativeTarget "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C2BC60DCAFEC72FD8D98F01869A4750 /* Debug */,
+				17E07120CCD0387948FD1A10EF6043A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

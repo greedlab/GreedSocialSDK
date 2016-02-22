@@ -1,0 +1,1 @@
+../../../GreedWeChatSDK/WechatAuthSDK.h
