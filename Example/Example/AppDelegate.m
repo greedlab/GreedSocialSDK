@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import <GreedSocialSDK/GreedSocialSDK.h>
 
 @interface AppDelegate ()
 
@@ -40,6 +41,24 @@
 
 - (void)applicationWillTerminate:(UIApplication *)application {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+}
+
+-(BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation
+{
+    if ([[GRSocial getInstance] handleApplication:app openURL:url]) {
+        return YES;
+    }
+    // handle other
+    return YES;
+}
+
+- (BOOL)application:(UIApplication *)app openURL:(NSURL *)url options:(id)options
+{
+    if ([[GRSocial getInstance] handleApplication:app openURL:url]) {
+        return YES;
+    }
+    // handle other
+    return YES;
 }
 
 @end

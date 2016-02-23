@@ -12,6 +12,7 @@
  分享类型
  */
 typedef NS_ENUM(NSInteger, GRShareType) {
+    GRShareTypeNone,
     GRShareTypeQQ,          // QQ
     GRShareTypeQZone,       // QQ空间
     GRShareTypeWeiXin,      // 微信

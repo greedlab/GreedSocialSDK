@@ -9,5 +9,8 @@
 #ifndef GreedSocialSDK_h
 #define GreedSocialSDK_h
 
+#import "GRSocial.h"
+#import "GRLoginModel.h"
+#import "GRShareModel.h"
 
 #endif /* GreedSocialSDK_h */

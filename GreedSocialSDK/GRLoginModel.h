@@ -12,6 +12,7 @@
  登陆类型
  */
 typedef NS_ENUM(NSInteger, GRLoginType) {
+    GRLoginTypeNone,
     GRLoginTypeQQ,
     GRLoginTypeWeiXin,
     GRLoginTypeWeiBo,
