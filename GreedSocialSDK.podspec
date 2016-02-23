@@ -8,7 +8,8 @@ Pod::Spec.new do |s|
   s.author       = { "Bell" => "bell@greedlab.com" }
   s.platform     = :ios, "6.0"
   s.source       = { :git => "https://github.com/greedlab/GreedSocialSDK.git", :tag => s.version }
-  s.source_files  = "GreedSocialSDK", "GreedSocialSDK/*.{h,m}"
+  s.source_files = "GreedSocialSDK", "GreedSocialSDK/*.{h,m}"
+  s.resource     = "GreedSocialSDK/Resource/*"
   s.framework  = "Foundation","UIKIT"
   s.requires_arc = true
   s.dependency "GreedTencentOpenAPI"

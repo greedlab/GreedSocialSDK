@@ -71,6 +71,18 @@
 		1F8C4C43E813E880879832DBF6A1A6EC /* GRShareModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GRShareModel.m; sourceTree = "<group>"; };
 		1FB2A034D0DCB89153B6CC7DB1EE882A /* WXApiObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
 		272643F56613CA0D336AE3DBF19DC404 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
+		28EAD1A71C7C31D3007EE667 /* gr_share_pengyouquan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gr_share_pengyouquan.png; sourceTree = "<group>"; };
+		28EAD1A81C7C31D3007EE667 /* gr_share_pengyouquan@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gr_share_pengyouquan@2x.png"; sourceTree = "<group>"; };
+		28EAD1A91C7C31D3007EE667 /* gr_share_pengyouquan@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gr_share_pengyouquan@3x.png"; sourceTree = "<group>"; };
+		28EAD1AA1C7C31D3007EE667 /* gr_share_qq.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gr_share_qq.png; sourceTree = "<group>"; };
+		28EAD1AB1C7C31D3007EE667 /* gr_share_qq@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gr_share_qq@2x.png"; sourceTree = "<group>"; };
+		28EAD1AC1C7C31D3007EE667 /* gr_share_qq@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gr_share_qq@3x.png"; sourceTree = "<group>"; };
+		28EAD1AD1C7C31D3007EE667 /* gr_share_weibo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gr_share_weibo.png; sourceTree = "<group>"; };
+		28EAD1AE1C7C31D3007EE667 /* gr_share_weibo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gr_share_weibo@2x.png"; sourceTree = "<group>"; };
+		28EAD1AF1C7C31D3007EE667 /* gr_share_weibo@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gr_share_weibo@3x.png"; sourceTree = "<group>"; };
+		28EAD1B01C7C31D3007EE667 /* gr_share_weixin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gr_share_weixin.png; sourceTree = "<group>"; };
+		28EAD1B11C7C31D3007EE667 /* gr_share_weixin@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gr_share_weixin@2x.png"; sourceTree = "<group>"; };
+		28EAD1B21C7C31D3007EE667 /* gr_share_weixin@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gr_share_weixin@3x.png"; sourceTree = "<group>"; };
 		29957B9CE9C9B9B7F86DE5DE373CE0DE /* UIImage+Greed.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Greed.m"; path = "GreedCategory/UIImage+Greed.m"; sourceTree = "<group>"; };
 		2F2D9A8B4D2C96B38D0F7C5304831608 /* GRLoginModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GRLoginModel.m; sourceTree = "<group>"; };
 		34D31152EB604A203CB635F9E589685F /* GreedCategory-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GreedCategory-dummy.m"; sourceTree = "<group>"; };
@@ -193,9 +205,29 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		28EAD1A61C7C31D3007EE667 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				28EAD1A71C7C31D3007EE667 /* gr_share_pengyouquan.png */,
+				28EAD1A81C7C31D3007EE667 /* gr_share_pengyouquan@2x.png */,
+				28EAD1A91C7C31D3007EE667 /* gr_share_pengyouquan@3x.png */,
+				28EAD1AA1C7C31D3007EE667 /* gr_share_qq.png */,
+				28EAD1AB1C7C31D3007EE667 /* gr_share_qq@2x.png */,
+				28EAD1AC1C7C31D3007EE667 /* gr_share_qq@3x.png */,
+				28EAD1AD1C7C31D3007EE667 /* gr_share_weibo.png */,
+				28EAD1AE1C7C31D3007EE667 /* gr_share_weibo@2x.png */,
+				28EAD1AF1C7C31D3007EE667 /* gr_share_weibo@3x.png */,
+				28EAD1B01C7C31D3007EE667 /* gr_share_weixin.png */,
+				28EAD1B11C7C31D3007EE667 /* gr_share_weixin@2x.png */,
+				28EAD1B21C7C31D3007EE667 /* gr_share_weixin@3x.png */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
 		2A88A3BD6F15B9C5D23F14C27F1C7A5E /* GreedSocialSDK */ = {
 			isa = PBXGroup;
 			children = (
+				28EAD1A61C7C31D3007EE667 /* Resource */,
 				C6E10236278DC3A8498ACC213F508C81 /* GreedSocialSDK.h */,
 				F076F421652D5255CBEDAE9EBC28C41E /* GRLoginModel.h */,
 				2F2D9A8B4D2C96B38D0F7C5304831608 /* GRLoginModel.m */,
