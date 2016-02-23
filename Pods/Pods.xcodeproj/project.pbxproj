@@ -7,44 +7,51 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0508C5F23BE7BD54C0B915238C4875BA /* GRShareModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 7981B55EA92E8112F3005F7F290E44A7 /* GRShareModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		05B1D6B859FB627464BA70DE382FC1CC /* UIWindow+Greed.m in Sources */ = {isa = PBXBuildFile; fileRef = B7AEEC070B9B0DA36719D2106566A147 /* UIWindow+Greed.m */; };
-		1B454BA60FB9A78B08AF84D5E6F02866 /* UILabel+Greed.m in Sources */ = {isa = PBXBuildFile; fileRef = 108963E34B06AB66A8EC191176BBAA64 /* UILabel+Greed.m */; };
+		05B1D6B859FB627464BA70DE382FC1CC /* UIWindow+Greed.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B80DB415FE635C26E3D134F211D1280 /* UIWindow+Greed.m */; };
+		1B454BA60FB9A78B08AF84D5E6F02866 /* UILabel+Greed.m in Sources */ = {isa = PBXBuildFile; fileRef = 47760EC55CB992DBF91C2ECB63D1AE28 /* UILabel+Greed.m */; };
+		1D6397972E70F922C9A8CC0B9FB97246 /* GRShareModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 32F32148AE7974B04EC5418B4F4A6675 /* GRShareModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		26E407F50226BADAFDE061BCE2CC2EF6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C12053D655DCB0048606D591763C7DD1 /* Foundation.framework */; };
-		2D893B348BA8F5F96D7E89AE3453A34A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C12053D655DCB0048606D591763C7DD1 /* Foundation.framework */; };
-		370CBA921AEE6DB50DB67F520DFDC0C5 /* UIImage+Greed.m in Sources */ = {isa = PBXBuildFile; fileRef = 29957B9CE9C9B9B7F86DE5DE373CE0DE /* UIImage+Greed.m */; };
+		370CBA921AEE6DB50DB67F520DFDC0C5 /* UIImage+Greed.m in Sources */ = {isa = PBXBuildFile; fileRef = D4ACD7108F89694077F3ECE065B42230 /* UIImage+Greed.m */; };
 		375F7631D2F7D45514F50CC3329989CE /* UIKIT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C39782BB6E7D728951F67579DBFAC1B /* UIKIT.framework */; };
-		3B7851E217D3E260BE1ED41711EBF47C /* NSString+Greed.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ECC93F631AA02B8D23A86907AD22435 /* NSString+Greed.m */; };
-		3CAC9CFBF1126FAC33A9B778AC56CC30 /* GRLoginModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2D9A8B4D2C96B38D0F7C5304831608 /* GRLoginModel.m */; };
-		3F9BAC7812936439588A03868F3C8FB7 /* UIWindow+Greed.h in Headers */ = {isa = PBXBuildFile; fileRef = BFF6B9C2150CAF86579778FC631AFB17 /* UIWindow+Greed.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3868CB3647784857ABDF37DC4B3ABB2B /* UIKIT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C39782BB6E7D728951F67579DBFAC1B /* UIKIT.framework */; };
+		3B7851E217D3E260BE1ED41711EBF47C /* NSString+Greed.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C15303E784248C84067D4501FB7E812 /* NSString+Greed.m */; };
+		3F9BAC7812936439588A03868F3C8FB7 /* UIWindow+Greed.h in Headers */ = {isa = PBXBuildFile; fileRef = DF88B71E096076CCC555FB5FF27B0677 /* UIWindow+Greed.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		427B908E127B1861876F9C8B667C979A /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80E79F93C97C8F4C64EB77BF36B3D294 /* CoreLocation.framework */; };
-		44F1C7E95853B7C1DB0CEFC6FDD11993 /* NSDate+Greed.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D3A6D1A5F395F619E0553526ABEBBF8 /* NSDate+Greed.m */; };
+		44F1C7E95853B7C1DB0CEFC6FDD11993 /* NSDate+Greed.m in Sources */ = {isa = PBXBuildFile; fileRef = 3769B09E2E615AA61B2ECB3B147A8B7C /* NSDate+Greed.m */; };
+		480833D34CAD704C1567198FF1C2759D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C12053D655DCB0048606D591763C7DD1 /* Foundation.framework */; };
 		49D7D1B08172CBE6B187D6E29A72A46C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB2142C07550D77EA1907EF15FAC38E0 /* CoreGraphics.framework */; };
-		4CBB836C8C941F6CC8EF29DFF7D358D3 /* GRSocial.h in Headers */ = {isa = PBXBuildFile; fileRef = ECBD6B7E275F2C2460CEEA03EBBF33E8 /* GRSocial.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		56136DB6D10182255F2CB128E84A5EE0 /* GRShareModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F8C4C43E813E880879832DBF6A1A6EC /* GRShareModel.m */; };
-		569FB2DCDD2713F58D0BA64E55A718DD /* GreedCategory-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 34D31152EB604A203CB635F9E589685F /* GreedCategory-dummy.m */; };
-		5BDE14F13B8A9E2B1D2B7D4E21E52229 /* GRSocial.m in Sources */ = {isa = PBXBuildFile; fileRef = ED9BD013FA063D1956A329BB73AB6291 /* GRSocial.m */; };
-		6918959E19F4A6E57DD46726BD7CA930 /* NSObject+Greed.m in Sources */ = {isa = PBXBuildFile; fileRef = 6834594E6F89528DC55360DAA31083AE /* NSObject+Greed.m */; };
+		569FB2DCDD2713F58D0BA64E55A718DD /* GreedCategory-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7589E54E51346B130CCCA9516D2E817A /* GreedCategory-dummy.m */; };
+		6918959E19F4A6E57DD46726BD7CA930 /* NSObject+Greed.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E498A4BCCD2866AD8F964E0BFFAFFE4 /* NSObject+Greed.m */; };
+		6A62184668F02DD470BEA5B476479CD2 /* GreedSocialSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = DC11F37637F136D2F77D54AB3D53906E /* GreedSocialSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6C37BBD6FDE37DDCE5F6FDD8313B8ABE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C12053D655DCB0048606D591763C7DD1 /* Foundation.framework */; };
-		737CB573777A09AE38493F5B174F46F9 /* UIView+Greed.h in Headers */ = {isa = PBXBuildFile; fileRef = 48FBD910A356F91EE0722A91A95C58E2 /* UIView+Greed.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		76A9E0671AFCBD9AFAE1166E819EEFE1 /* UITextView+Greed.h in Headers */ = {isa = PBXBuildFile; fileRef = 628FD763CFF2F529A04023183FE1D68B /* UITextView+Greed.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		737CB573777A09AE38493F5B174F46F9 /* UIView+Greed.h in Headers */ = {isa = PBXBuildFile; fileRef = F90859EB0A336D7179FF6E4258709586 /* UIView+Greed.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		76A9E0671AFCBD9AFAE1166E819EEFE1 /* UITextView+Greed.h in Headers */ = {isa = PBXBuildFile; fileRef = 99BE30CFF0C7F7FBBB3178C3A7C120D6 /* UITextView+Greed.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		77A6D35BE3093561E1EACEA245D65C75 /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 272643F56613CA0D336AE3DBF19DC404 /* Pods-dummy.m */; };
-		79DB5CAEFF9C55C8D8B84D3A65B4F1F8 /* GreedSocialSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EE5BA626DDC5C6149196FF3E2BFB9842 /* GreedSocialSDK-dummy.m */; };
-		831C87175E852F5FFEBABFB3DC4D773D /* NSString+Greed.h in Headers */ = {isa = PBXBuildFile; fileRef = 41EC77A202E9A03456414ED8660C956B /* NSString+Greed.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		83C2CB9CDB2F89EB89ACA42EF12D5B30 /* NSDate+Greed.h in Headers */ = {isa = PBXBuildFile; fileRef = 09A360E1F187030A4309BA0F17AD5DC7 /* NSDate+Greed.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		88564F61231BD164D75E5717405DDEFC /* UIKIT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C39782BB6E7D728951F67579DBFAC1B /* UIKIT.framework */; };
-		912808DBF0E476EC4E35AACA72D30536 /* GRLoginModel.h in Headers */ = {isa = PBXBuildFile; fileRef = F076F421652D5255CBEDAE9EBC28C41E /* GRLoginModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		96643CB2DFB91518065225D92CF81746 /* UITextView+Greed.m in Sources */ = {isa = PBXBuildFile; fileRef = ED709E73E91FC70B6896FC800433EBFB /* UITextView+Greed.m */; };
-		974EFFB1BA6CA97CBA658F4001049936 /* UIImage+Greed.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EB5DA5AF163EBBB6B2B8ED18360E219 /* UIImage+Greed.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9FC86559FBEFAA793156CA1B1265CFBC /* UIView+Greed.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E44F1C3133B24E12602847234F5C2C7 /* UIView+Greed.m */; };
-		A9F7F4DC9224C1B6EDFBA9496EDE203B /* UILabel+Greed.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BB489CDB8CAA1055249BDA2928E8429 /* UILabel+Greed.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BB2DCEC5E5C6A21819D355EC4EED8569 /* CLLocation+Greed.m in Sources */ = {isa = PBXBuildFile; fileRef = A3663444EB268B4388A3ACDD34C0D99F /* CLLocation+Greed.m */; };
-		E7AB5ADC890ECB6FA868842BB18B1D67 /* CLLocation+Greed.h in Headers */ = {isa = PBXBuildFile; fileRef = A00C7E75B20565EBC8DD15B092D6FC16 /* CLLocation+Greed.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EDE74404C4E3A55F9C4E9142A02ACA04 /* NSObject+Greed.h in Headers */ = {isa = PBXBuildFile; fileRef = FB09E76E8FF9EFA838FF7583AFBEE274 /* NSObject+Greed.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F61F13D84966E9087F661424CAA5DDE9 /* GreedSocialSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = C6E10236278DC3A8498ACC213F508C81 /* GreedSocialSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		831C87175E852F5FFEBABFB3DC4D773D /* NSString+Greed.h in Headers */ = {isa = PBXBuildFile; fileRef = 8359FE151A646CA85C97C5C74A37D160 /* NSString+Greed.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		83C2CB9CDB2F89EB89ACA42EF12D5B30 /* NSDate+Greed.h in Headers */ = {isa = PBXBuildFile; fileRef = A22973CFE73126ECF39A13CAD4CD7753 /* NSDate+Greed.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		96643CB2DFB91518065225D92CF81746 /* UITextView+Greed.m in Sources */ = {isa = PBXBuildFile; fileRef = C33CC90F28F71E8870713C8D44E70709 /* UITextView+Greed.m */; };
+		974EFFB1BA6CA97CBA658F4001049936 /* UIImage+Greed.h in Headers */ = {isa = PBXBuildFile; fileRef = 686D5613079A88C0BB1EECE3124B52C4 /* UIImage+Greed.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9FC86559FBEFAA793156CA1B1265CFBC /* UIView+Greed.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9B86AD6D4D745A2205A8A95C7F4FF8 /* UIView+Greed.m */; };
+		A9F7F4DC9224C1B6EDFBA9496EDE203B /* UILabel+Greed.h in Headers */ = {isa = PBXBuildFile; fileRef = C8D754A213CA1D51C2CB317BC63CF8C4 /* UILabel+Greed.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B77EDA9C4CE082B5E8E796DDE06A1795 /* GRSocial.h in Headers */ = {isa = PBXBuildFile; fileRef = BAF2DD4561A90DA0B7CCC8136227F6F4 /* GRSocial.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BB2DCEC5E5C6A21819D355EC4EED8569 /* CLLocation+Greed.m in Sources */ = {isa = PBXBuildFile; fileRef = E3BFAA623891160299521D633A6CB720 /* CLLocation+Greed.m */; };
+		C2F8470E959C412CDF139D668B07761D /* GRLoginModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E6C96A2BFF9B68D99C6B9B0D391000D8 /* GRLoginModel.m */; };
+		DB8B6B2E71FE0F3D83EE38C74AB7EBD9 /* GRLoginModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 17AEDE5CBB0C040792BF1C0F16250A0C /* GRLoginModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E57B0958519FB632DA2B9C8FA07B7919 /* GRShareModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DA188CEE8E37CE785748E49F56F5DD3 /* GRShareModel.m */; };
+		E7AB5ADC890ECB6FA868842BB18B1D67 /* CLLocation+Greed.h in Headers */ = {isa = PBXBuildFile; fileRef = 76B42B53304B82BE9F9CD170A31646DB /* CLLocation+Greed.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E8A2C552B8A1B8DF615B4EB1143F2319 /* GreedSocialSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7357C2AAC7F6360EE1217ECE572F7529 /* GreedSocialSDK-dummy.m */; };
+		EDE74404C4E3A55F9C4E9142A02ACA04 /* NSObject+Greed.h in Headers */ = {isa = PBXBuildFile; fileRef = FF3401707D824B536D53E208FE13E38F /* NSObject+Greed.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FEA4713338C65729A58E9C8833A7D8A6 /* GRSocial.m in Sources */ = {isa = PBXBuildFile; fileRef = B9042DCC346D2759550526E058D39FAE /* GRSocial.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		0BF0B08B8116A61328770C38F5126611 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC9EB3FC69F23C207333CF42F77AF715;
+			remoteInfo = GreedCategory;
+		};
 		2A1AE15655B06121E75AF37163008710 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
@@ -56,100 +63,91 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 4D6A44BC8F129D310E24D1E095884194;
+			remoteGlobalIDString = A0177C5FEA48D615546B5388C1FF184D;
 			remoteInfo = GreedSocialSDK;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		097CCA4AEF3943AD46AD71D0567FEAE6 /* WBSDKBasicButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WBSDKBasicButton.h; path = libWeiboSDK/WBSDKBasicButton.h; sourceTree = "<group>"; };
-		09A360E1F187030A4309BA0F17AD5DC7 /* NSDate+Greed.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDate+Greed.h"; path = "GreedCategory/NSDate+Greed.h"; sourceTree = "<group>"; };
-		0C15042D5BD7D3934B8BA02E62A21F12 /* WBSDKCommentButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WBSDKCommentButton.h; path = libWeiboSDK/WBSDKCommentButton.h; sourceTree = "<group>"; };
+		00D4F64EB5EE35F05020E3ED795AD44F /* gr_share_weixin@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "gr_share_weixin@3x.png"; sourceTree = "<group>"; };
+		03CCF777D8CC8631676D8A50CB82985F /* WXApiObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
+		04FADBA7D686165F60ABF2FF23B7CE19 /* libWeChatSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; path = libWeChatSDK.a; sourceTree = "<group>"; };
+		08585FCBF07AD9E826F02482FF0CF160 /* gr_share_pengyouquan@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "gr_share_pengyouquan@3x.png"; sourceTree = "<group>"; };
 		10834806BD7B412BC24F347361FA2C8E /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
-		108963E34B06AB66A8EC191176BBAA64 /* UILabel+Greed.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UILabel+Greed.m"; path = "GreedCategory/UILabel+Greed.m"; sourceTree = "<group>"; };
-		10FD42C88BB02C8F3BA535F210C8AD8B /* WBHttpRequest+WeiboShare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WBHttpRequest+WeiboShare.h"; path = "libWeiboSDK/WBHttpRequest+WeiboShare.h"; sourceTree = "<group>"; };
-		1F8C4C43E813E880879832DBF6A1A6EC /* GRShareModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GRShareModel.m; sourceTree = "<group>"; };
-		1FB2A034D0DCB89153B6CC7DB1EE882A /* WXApiObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
+		1642A8310615C7D55766A6636222FB66 /* gr_share_weibo@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "gr_share_weibo@3x.png"; sourceTree = "<group>"; };
+		17AEDE5CBB0C040792BF1C0F16250A0C /* GRLoginModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GRLoginModel.h; sourceTree = "<group>"; };
+		1CDF2C9B57EF599AEB9BB0C95A66C857 /* WBHttpRequest+WeiboShare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WBHttpRequest+WeiboShare.h"; path = "libWeiboSDK/WBHttpRequest+WeiboShare.h"; sourceTree = "<group>"; };
 		272643F56613CA0D336AE3DBF19DC404 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
-		28EAD1A71C7C31D3007EE667 /* gr_share_pengyouquan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gr_share_pengyouquan.png; sourceTree = "<group>"; };
-		28EAD1A81C7C31D3007EE667 /* gr_share_pengyouquan@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gr_share_pengyouquan@2x.png"; sourceTree = "<group>"; };
-		28EAD1A91C7C31D3007EE667 /* gr_share_pengyouquan@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gr_share_pengyouquan@3x.png"; sourceTree = "<group>"; };
-		28EAD1AA1C7C31D3007EE667 /* gr_share_qq.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gr_share_qq.png; sourceTree = "<group>"; };
-		28EAD1AB1C7C31D3007EE667 /* gr_share_qq@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gr_share_qq@2x.png"; sourceTree = "<group>"; };
-		28EAD1AC1C7C31D3007EE667 /* gr_share_qq@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gr_share_qq@3x.png"; sourceTree = "<group>"; };
-		28EAD1AD1C7C31D3007EE667 /* gr_share_weibo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gr_share_weibo.png; sourceTree = "<group>"; };
-		28EAD1AE1C7C31D3007EE667 /* gr_share_weibo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gr_share_weibo@2x.png"; sourceTree = "<group>"; };
-		28EAD1AF1C7C31D3007EE667 /* gr_share_weibo@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gr_share_weibo@3x.png"; sourceTree = "<group>"; };
-		28EAD1B01C7C31D3007EE667 /* gr_share_weixin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gr_share_weixin.png; sourceTree = "<group>"; };
-		28EAD1B11C7C31D3007EE667 /* gr_share_weixin@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gr_share_weixin@2x.png"; sourceTree = "<group>"; };
-		28EAD1B21C7C31D3007EE667 /* gr_share_weixin@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gr_share_weixin@3x.png"; sourceTree = "<group>"; };
-		29957B9CE9C9B9B7F86DE5DE373CE0DE /* UIImage+Greed.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Greed.m"; path = "GreedCategory/UIImage+Greed.m"; sourceTree = "<group>"; };
-		2F2D9A8B4D2C96B38D0F7C5304831608 /* GRLoginModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GRLoginModel.m; sourceTree = "<group>"; };
-		34D31152EB604A203CB635F9E589685F /* GreedCategory-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GreedCategory-dummy.m"; sourceTree = "<group>"; };
-		377941EA7D46F051984D9C0150576B14 /* TencentOpenApi_IOS_Bundle.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = TencentOpenApi_IOS_Bundle.bundle; path = All/TencentOpenApi_IOS_Bundle.bundle; sourceTree = "<group>"; };
+		2D51A8A79B8CD5ACB10F8831059149FA /* GreedSocialSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GreedSocialSDK-prefix.pch"; sourceTree = "<group>"; };
+		2E498A4BCCD2866AD8F964E0BFFAFFE4 /* NSObject+Greed.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+Greed.m"; path = "GreedCategory/NSObject+Greed.m"; sourceTree = "<group>"; };
+		2FFB5FCD074DFE59190972BDFD716E3A /* WBSDKRelationshipButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WBSDKRelationshipButton.h; path = libWeiboSDK/WBSDKRelationshipButton.h; sourceTree = "<group>"; };
+		32F32148AE7974B04EC5418B4F4A6675 /* GRShareModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GRShareModel.h; sourceTree = "<group>"; };
+		33855B1DDCE7613C8F6E86993493FC3B /* WBSDKBasicButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WBSDKBasicButton.h; path = libWeiboSDK/WBSDKBasicButton.h; sourceTree = "<group>"; };
+		3769B09E2E615AA61B2ECB3B147A8B7C /* NSDate+Greed.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDate+Greed.m"; path = "GreedCategory/NSDate+Greed.m"; sourceTree = "<group>"; };
 		37DB56D75062CC75FCB0966E1C6E8A8E /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
-		39269928C0B16260C292FDDC85360476 /* WBHttpRequest+WeiboGame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WBHttpRequest+WeiboGame.h"; path = "libWeiboSDK/WBHttpRequest+WeiboGame.h"; sourceTree = "<group>"; };
-		3E44F1C3133B24E12602847234F5C2C7 /* UIView+Greed.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+Greed.m"; path = "GreedCategory/UIView+Greed.m"; sourceTree = "<group>"; };
-		3EB5DA5AF163EBBB6B2B8ED18360E219 /* UIImage+Greed.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Greed.h"; path = "GreedCategory/UIImage+Greed.h"; sourceTree = "<group>"; };
-		41EC77A202E9A03456414ED8660C956B /* NSString+Greed.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+Greed.h"; path = "GreedCategory/NSString+Greed.h"; sourceTree = "<group>"; };
-		48FBD910A356F91EE0722A91A95C58E2 /* UIView+Greed.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+Greed.h"; path = "GreedCategory/UIView+Greed.h"; sourceTree = "<group>"; };
-		4920D13F786BAC977BC8451E46800BFF /* WBHttpRequest+WeiboToken.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WBHttpRequest+WeiboToken.h"; path = "libWeiboSDK/WBHttpRequest+WeiboToken.h"; sourceTree = "<group>"; };
+		3B80DB415FE635C26E3D134F211D1280 /* UIWindow+Greed.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIWindow+Greed.m"; path = "GreedCategory/UIWindow+Greed.m"; sourceTree = "<group>"; };
+		47760EC55CB992DBF91C2ECB63D1AE28 /* UILabel+Greed.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UILabel+Greed.m"; path = "GreedCategory/UILabel+Greed.m"; sourceTree = "<group>"; };
+		49F73A8FF15277EBA6DA427AB89F9795 /* gr_share_weibo@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "gr_share_weibo@2x.png"; sourceTree = "<group>"; };
 		4C39782BB6E7D728951F67579DBFAC1B /* UIKIT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKIT.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/UIKIT.framework; sourceTree = DEVELOPER_DIR; };
 		4E762F23EC34ED4A6FF3312D84E33A40 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
-		5C767A3FCB6E4068AFE1D1C8FAD737FA /* WXApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
-		628FD763CFF2F529A04023183FE1D68B /* UITextView+Greed.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITextView+Greed.h"; path = "GreedCategory/UITextView+Greed.h"; sourceTree = "<group>"; };
-		6834594E6F89528DC55360DAA31083AE /* NSObject+Greed.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+Greed.m"; path = "GreedCategory/NSObject+Greed.m"; sourceTree = "<group>"; };
+		53CE8AFC967BB8392C3B1ED9B4469116 /* WBHttpRequest+WeiboToken.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WBHttpRequest+WeiboToken.h"; path = "libWeiboSDK/WBHttpRequest+WeiboToken.h"; sourceTree = "<group>"; };
+		58AA2EA6C94F569B8EBEF58CE1A1E97F /* GreedCategory.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GreedCategory.xcconfig; sourceTree = "<group>"; };
+		5A5309C32BD1DDE1613DAFFCEF456FCF /* WeiboUser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WeiboUser.h; path = libWeiboSDK/WeiboUser.h; sourceTree = "<group>"; };
+		686D5613079A88C0BB1EECE3124B52C4 /* UIImage+Greed.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Greed.h"; path = "GreedCategory/UIImage+Greed.h"; sourceTree = "<group>"; };
 		6911BECA35E7518D864239B7E898EEF3 /* Pods-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-frameworks.sh"; sourceTree = "<group>"; };
 		6BE293C6957BED24EA668CA705D9CDF2 /* libGreedCategory.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libGreedCategory.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		6D4D9D4C51E4D08B5A1EE808493507D4 /* TencentOpenAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TencentOpenAPI.framework; path = All/TencentOpenAPI.framework; sourceTree = "<group>"; };
-		6F3AF331ADE5C3F697CF4CF72941CC88 /* libWeiboSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libWeiboSDK.a; path = libWeiboSDK/libWeiboSDK.a; sourceTree = "<group>"; };
-		72E9181CA4A3BDD5164EB8FEBBDF0192 /* WBHttpRequest+WeiboUser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WBHttpRequest+WeiboUser.h"; path = "libWeiboSDK/WBHttpRequest+WeiboUser.h"; sourceTree = "<group>"; };
-		7981B55EA92E8112F3005F7F290E44A7 /* GRShareModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GRShareModel.h; sourceTree = "<group>"; };
+		6C34428614795B60674BADD7548051F0 /* WeiboSDK.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = WeiboSDK.bundle; path = libWeiboSDK/WeiboSDK.bundle; sourceTree = "<group>"; };
+		6DA188CEE8E37CE785748E49F56F5DD3 /* GRShareModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GRShareModel.m; sourceTree = "<group>"; };
+		7357C2AAC7F6360EE1217ECE572F7529 /* GreedSocialSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GreedSocialSDK-dummy.m"; sourceTree = "<group>"; };
+		7589E54E51346B130CCCA9516D2E817A /* GreedCategory-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GreedCategory-dummy.m"; sourceTree = "<group>"; };
+		7598E3D368C411912167736364CF369B /* gr_share_weixin.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = gr_share_weixin.png; sourceTree = "<group>"; };
+		76B42B53304B82BE9F9CD170A31646DB /* CLLocation+Greed.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CLLocation+Greed.h"; path = "GreedCategory/CLLocation+Greed.h"; sourceTree = "<group>"; };
+		7F2D8191E63FECA587653A86C4F10254 /* gr_share_pengyouquan.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = gr_share_pengyouquan.png; sourceTree = "<group>"; };
 		80E79F93C97C8F4C64EB77BF36B3D294 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/CoreLocation.framework; sourceTree = DEVELOPER_DIR; };
-		86D571D977547877B4DC531AFD3D7441 /* GreedCategory-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GreedCategory-prefix.pch"; sourceTree = "<group>"; };
-		8ECC93F631AA02B8D23A86907AD22435 /* NSString+Greed.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+Greed.m"; path = "GreedCategory/NSString+Greed.m"; sourceTree = "<group>"; };
+		8359FE151A646CA85C97C5C74A37D160 /* NSString+Greed.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+Greed.h"; path = "GreedCategory/NSString+Greed.h"; sourceTree = "<group>"; };
+		8CCFCCF5DE8C81969851E9EF801EA6A9 /* gr_share_pengyouquan@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "gr_share_pengyouquan@2x.png"; sourceTree = "<group>"; };
+		8CD434F41542A90CB5FC28527BAD2176 /* WeiboSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WeiboSDK.h; path = libWeiboSDK/WeiboSDK.h; sourceTree = "<group>"; };
 		91369EC9DA96C014C08C8E9804B8C0FE /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		97349A967FEF8EF3509791AD8406B22A /* TencentOpenAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TencentOpenAPI.framework; path = All/TencentOpenAPI.framework; sourceTree = "<group>"; };
 		98C98CDFB3F20F2925F6CD1F141BB14F /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
-		994C81259CD109BBE2282F8D3685EE3C /* libWeChatSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; path = libWeChatSDK.a; sourceTree = "<group>"; };
-		9BB489CDB8CAA1055249BDA2928E8429 /* UILabel+Greed.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UILabel+Greed.h"; path = "GreedCategory/UILabel+Greed.h"; sourceTree = "<group>"; };
-		9D3A6D1A5F395F619E0553526ABEBBF8 /* NSDate+Greed.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDate+Greed.m"; path = "GreedCategory/NSDate+Greed.m"; sourceTree = "<group>"; };
-		A00C7E75B20565EBC8DD15B092D6FC16 /* CLLocation+Greed.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CLLocation+Greed.h"; path = "GreedCategory/CLLocation+Greed.h"; sourceTree = "<group>"; };
+		99BE30CFF0C7F7FBBB3178C3A7C120D6 /* UITextView+Greed.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITextView+Greed.h"; path = "GreedCategory/UITextView+Greed.h"; sourceTree = "<group>"; };
+		9C15303E784248C84067D4501FB7E812 /* NSString+Greed.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+Greed.m"; path = "GreedCategory/NSString+Greed.m"; sourceTree = "<group>"; };
 		A1A36D34413696BE466E2CA0AFF194DA /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
-		A3663444EB268B4388A3ACDD34C0D99F /* CLLocation+Greed.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CLLocation+Greed.m"; path = "GreedCategory/CLLocation+Greed.m"; sourceTree = "<group>"; };
-		B768B4FBB5CF479417E353E684560953 /* WeiboSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WeiboSDK.h; path = libWeiboSDK/WeiboSDK.h; sourceTree = "<group>"; };
-		B7AEEC070B9B0DA36719D2106566A147 /* UIWindow+Greed.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIWindow+Greed.m"; path = "GreedCategory/UIWindow+Greed.m"; sourceTree = "<group>"; };
-		BA104F9BBD2EFD4EE30EC04CB200BD5E /* GreedSocialSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GreedSocialSDK-prefix.pch"; sourceTree = "<group>"; };
+		A22973CFE73126ECF39A13CAD4CD7753 /* NSDate+Greed.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDate+Greed.h"; path = "GreedCategory/NSDate+Greed.h"; sourceTree = "<group>"; };
+		B9042DCC346D2759550526E058D39FAE /* GRSocial.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GRSocial.m; sourceTree = "<group>"; };
+		BA429AD19C38BE27D523AFCF2D1C2DEC /* gr_share_weixin@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "gr_share_weixin@2x.png"; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BAF2DD4561A90DA0B7CCC8136227F6F4 /* GRSocial.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GRSocial.h; sourceTree = "<group>"; };
 		BB2142C07550D77EA1907EF15FAC38E0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
-		BEF992E6938A3C414ED407048427C851 /* WechatAuthSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WechatAuthSDK.h; sourceTree = "<group>"; };
-		BFE171E47FEF2C1D86CD3121E0E4CEF1 /* WBSDKRelationshipButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WBSDKRelationshipButton.h; path = libWeiboSDK/WBSDKRelationshipButton.h; sourceTree = "<group>"; };
-		BFF6B9C2150CAF86579778FC631AFB17 /* UIWindow+Greed.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIWindow+Greed.h"; path = "GreedCategory/UIWindow+Greed.h"; sourceTree = "<group>"; };
+		BC8F65F8BF490BCD492B6C28E46FA129 /* WXApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
 		C12053D655DCB0048606D591763C7DD1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		C2CED85830039E1F7ACE9FCE7F3C3D43 /* GreedCategory.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GreedCategory.xcconfig; sourceTree = "<group>"; };
-		C6E10236278DC3A8498ACC213F508C81 /* GreedSocialSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GreedSocialSDK.h; sourceTree = "<group>"; };
-		D435BD5E3237CCB9D48723C955CC679E /* WBHttpRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WBHttpRequest.h; path = libWeiboSDK/WBHttpRequest.h; sourceTree = "<group>"; };
-		EB7BAE2A54DED17184FF8DE8808F76D1 /* WeiboSDK.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = WeiboSDK.bundle; path = libWeiboSDK/WeiboSDK.bundle; sourceTree = "<group>"; };
-		ECBD6B7E275F2C2460CEEA03EBBF33E8 /* GRSocial.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GRSocial.h; sourceTree = "<group>"; };
-		ED55EC8F0186C0DE3855D43381408D14 /* WeiboUser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WeiboUser.h; path = libWeiboSDK/WeiboUser.h; sourceTree = "<group>"; };
-		ED709E73E91FC70B6896FC800433EBFB /* UITextView+Greed.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITextView+Greed.m"; path = "GreedCategory/UITextView+Greed.m"; sourceTree = "<group>"; };
-		ED9BD013FA063D1956A329BB73AB6291 /* GRSocial.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GRSocial.m; sourceTree = "<group>"; };
-		EE5BA626DDC5C6149196FF3E2BFB9842 /* GreedSocialSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GreedSocialSDK-dummy.m"; sourceTree = "<group>"; };
-		F076F421652D5255CBEDAE9EBC28C41E /* GRLoginModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GRLoginModel.h; sourceTree = "<group>"; };
-		F496010BE9DBF1FCAFFA4CCCB60B1030 /* GreedSocialSDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GreedSocialSDK.xcconfig; sourceTree = "<group>"; };
+		C2EC7092887D7778A461DF52B145B6A0 /* WBHttpRequest+WeiboGame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WBHttpRequest+WeiboGame.h"; path = "libWeiboSDK/WBHttpRequest+WeiboGame.h"; sourceTree = "<group>"; };
+		C33CC90F28F71E8870713C8D44E70709 /* UITextView+Greed.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITextView+Greed.m"; path = "GreedCategory/UITextView+Greed.m"; sourceTree = "<group>"; };
+		C8D754A213CA1D51C2CB317BC63CF8C4 /* UILabel+Greed.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UILabel+Greed.h"; path = "GreedCategory/UILabel+Greed.h"; sourceTree = "<group>"; };
+		D4ACD7108F89694077F3ECE065B42230 /* UIImage+Greed.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Greed.m"; path = "GreedCategory/UIImage+Greed.m"; sourceTree = "<group>"; };
+		D76FE9288B30439D79B394FF9C30D65A /* gr_share_qq.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = gr_share_qq.png; sourceTree = "<group>"; };
+		D827221BD0F3D2F2AE9B93B73D6B3273 /* gr_share_qq@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "gr_share_qq@2x.png"; sourceTree = "<group>"; };
+		D92A88CD63E47BDFA86898FBBBCFCE65 /* WechatAuthSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WechatAuthSDK.h; sourceTree = "<group>"; };
+		DC11F37637F136D2F77D54AB3D53906E /* GreedSocialSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GreedSocialSDK.h; sourceTree = "<group>"; };
+		DF88B71E096076CCC555FB5FF27B0677 /* UIWindow+Greed.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIWindow+Greed.h"; path = "GreedCategory/UIWindow+Greed.h"; sourceTree = "<group>"; };
+		E0A7EAD96E5D76C34D4245968B8F07FF /* TencentOpenApi_IOS_Bundle.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = TencentOpenApi_IOS_Bundle.bundle; path = All/TencentOpenApi_IOS_Bundle.bundle; sourceTree = "<group>"; };
+		E1C586F09743EEC4F80D1C8F8D6FAF60 /* gr_share_qq@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "gr_share_qq@3x.png"; sourceTree = "<group>"; };
+		E1C76E430D0C711BE1646C779FC9924B /* WBHttpRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WBHttpRequest.h; path = libWeiboSDK/WBHttpRequest.h; sourceTree = "<group>"; };
+		E3BFAA623891160299521D633A6CB720 /* CLLocation+Greed.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CLLocation+Greed.m"; path = "GreedCategory/CLLocation+Greed.m"; sourceTree = "<group>"; };
+		E6C96A2BFF9B68D99C6B9B0D391000D8 /* GRLoginModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GRLoginModel.m; sourceTree = "<group>"; };
+		EA9B86AD6D4D745A2205A8A95C7F4FF8 /* UIView+Greed.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+Greed.m"; path = "GreedCategory/UIView+Greed.m"; sourceTree = "<group>"; };
+		EACAB1ED3D3CB61CEF4419B24CA7E862 /* WBHttpRequest+WeiboUser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WBHttpRequest+WeiboUser.h"; path = "libWeiboSDK/WBHttpRequest+WeiboUser.h"; sourceTree = "<group>"; };
+		ECD18E6B57533AAC01BC23D336FFF71F /* GreedSocialSDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GreedSocialSDK.xcconfig; sourceTree = "<group>"; };
+		F2FDA68B4C7E5EB9DC2117BA8D8842B8 /* WBSDKCommentButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WBSDKCommentButton.h; path = libWeiboSDK/WBSDKCommentButton.h; sourceTree = "<group>"; };
+		F5FFDB3C5E832F96A600C363CCA8C813 /* gr_share_weibo.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = gr_share_weibo.png; sourceTree = "<group>"; };
+		F90859EB0A336D7179FF6E4258709586 /* UIView+Greed.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+Greed.h"; path = "GreedCategory/UIView+Greed.h"; sourceTree = "<group>"; };
 		F910A50E59C3093FCFAF977D592A6281 /* libGreedSocialSDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libGreedSocialSDK.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		FB09E76E8FF9EFA838FF7583AFBEE274 /* NSObject+Greed.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+Greed.h"; path = "GreedCategory/NSObject+Greed.h"; sourceTree = "<group>"; };
+		FA986A9B4E6ED68715BE5377F4F7EB9B /* libWeiboSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libWeiboSDK.a; path = libWeiboSDK/libWeiboSDK.a; sourceTree = "<group>"; };
+		FDE6671131D49F3127D0A32A14DF8D2B /* GreedCategory-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GreedCategory-prefix.pch"; sourceTree = "<group>"; };
+		FF3401707D824B536D53E208FE13E38F /* NSObject+Greed.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+Greed.h"; path = "GreedCategory/NSObject+Greed.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		28812DD1903A9029770DB016E98B9454 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2D893B348BA8F5F96D7E89AE3453A34A /* Foundation.framework in Frameworks */,
-				88564F61231BD164D75E5717405DDEFC /* UIKIT.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		2B8E326DC71A2C341CB7B8C24D52FB21 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -169,6 +167,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C45E2843B92E75D4909658423366A80F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				480833D34CAD704C1567198FF1C2759D /* Foundation.framework in Frameworks */,
+				3868CB3647784857ABDF37DC4B3ABB2B /* UIKIT.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -180,23 +187,6 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		0B5FFB03EA354395F8681D3D0972CA74 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				B835195C98A67A897270B10F0B7974DC /* GreedSocialSDK */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		0D2B8D857D0D6F9B0A4F684AC6219A19 /* All */ = {
-			isa = PBXGroup;
-			children = (
-				E3D1E8D42E3B6F7929C55437A60F476B /* Frameworks */,
-				F0DF523A650C478D2BBA231F608D5536 /* Resources */,
-			);
-			name = All;
-			sourceTree = "<group>";
-		};
 		14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -205,87 +195,64 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		28EAD1A61C7C31D3007EE667 /* Resource */ = {
+		2A28FEF20CB8986714853CA763D7EF25 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				28EAD1A71C7C31D3007EE667 /* gr_share_pengyouquan.png */,
-				28EAD1A81C7C31D3007EE667 /* gr_share_pengyouquan@2x.png */,
-				28EAD1A91C7C31D3007EE667 /* gr_share_pengyouquan@3x.png */,
-				28EAD1AA1C7C31D3007EE667 /* gr_share_qq.png */,
-				28EAD1AB1C7C31D3007EE667 /* gr_share_qq@2x.png */,
-				28EAD1AC1C7C31D3007EE667 /* gr_share_qq@3x.png */,
-				28EAD1AD1C7C31D3007EE667 /* gr_share_weibo.png */,
-				28EAD1AE1C7C31D3007EE667 /* gr_share_weibo@2x.png */,
-				28EAD1AF1C7C31D3007EE667 /* gr_share_weibo@3x.png */,
-				28EAD1B01C7C31D3007EE667 /* gr_share_weixin.png */,
-				28EAD1B11C7C31D3007EE667 /* gr_share_weixin@2x.png */,
-				28EAD1B21C7C31D3007EE667 /* gr_share_weixin@3x.png */,
+				FA986A9B4E6ED68715BE5377F4F7EB9B /* libWeiboSDK.a */,
 			);
-			path = Resource;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		2A88A3BD6F15B9C5D23F14C27F1C7A5E /* GreedSocialSDK */ = {
+		385D59FFFA9B2F58324C89A36693B371 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				28EAD1A61C7C31D3007EE667 /* Resource */,
-				C6E10236278DC3A8498ACC213F508C81 /* GreedSocialSDK.h */,
-				F076F421652D5255CBEDAE9EBC28C41E /* GRLoginModel.h */,
-				2F2D9A8B4D2C96B38D0F7C5304831608 /* GRLoginModel.m */,
-				7981B55EA92E8112F3005F7F290E44A7 /* GRShareModel.h */,
-				1F8C4C43E813E880879832DBF6A1A6EC /* GRShareModel.m */,
-				ECBD6B7E275F2C2460CEEA03EBBF33E8 /* GRSocial.h */,
-				ED9BD013FA063D1956A329BB73AB6291 /* GRSocial.m */,
+				ECD18E6B57533AAC01BC23D336FFF71F /* GreedSocialSDK.xcconfig */,
+				7357C2AAC7F6360EE1217ECE572F7529 /* GreedSocialSDK-dummy.m */,
+				2D51A8A79B8CD5ACB10F8831059149FA /* GreedSocialSDK-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "Pods/Target Support Files/GreedSocialSDK";
+			sourceTree = "<group>";
+		};
+		3B1F454FC8B6A9E30B903246B23C386E /* GreedSocialSDK */ = {
+			isa = PBXGroup;
+			children = (
+				DC11F37637F136D2F77D54AB3D53906E /* GreedSocialSDK.h */,
+				17AEDE5CBB0C040792BF1C0F16250A0C /* GRLoginModel.h */,
+				E6C96A2BFF9B68D99C6B9B0D391000D8 /* GRLoginModel.m */,
+				32F32148AE7974B04EC5418B4F4A6675 /* GRShareModel.h */,
+				6DA188CEE8E37CE785748E49F56F5DD3 /* GRShareModel.m */,
+				BAF2DD4561A90DA0B7CCC8136227F6F4 /* GRSocial.h */,
+				B9042DCC346D2759550526E058D39FAE /* GRSocial.m */,
 			);
 			path = GreedSocialSDK;
 			sourceTree = "<group>";
 		};
-		2AC49415EF9BE26117F7B0142492E7BC /* GreedWeChatSDK */ = {
+		4903E27FBDDC033AD3F3C0342D5C06F4 /* GreedTencentOpenAPI */ = {
 			isa = PBXGroup;
 			children = (
-				BEF992E6938A3C414ED407048427C851 /* WechatAuthSDK.h */,
-				5C767A3FCB6E4068AFE1D1C8FAD737FA /* WXApi.h */,
-				1FB2A034D0DCB89153B6CC7DB1EE882A /* WXApiObject.h */,
-				4F9258D8154F0159A99B9F414E04C4CA /* Frameworks */,
+				66E8945920BB363EE0FB3A72B3AA8D09 /* All */,
 			);
-			path = GreedWeChatSDK;
+			path = GreedTencentOpenAPI;
 			sourceTree = "<group>";
 		};
-		4F9258D8154F0159A99B9F414E04C4CA /* Frameworks */ = {
+		4A3A6F2A122B8392BDE8609412B950BE /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				994C81259CD109BBE2282F8D3685EE3C /* libWeChatSDK.a */,
+				8FCE23A9AADF96933E05EC05BB60A8F4 /* GreedSocialSDK */,
 			);
-			name = Frameworks;
+			name = Resources;
 			sourceTree = "<group>";
 		};
-		551EC792708F735E5C73F00CCA172AF8 /* Support Files */ = {
+		5BF35555404FC76EA3C10E4EBE6C75DF /* GreedWeChatSDK-iOS */ = {
 			isa = PBXGroup;
 			children = (
-				C2CED85830039E1F7ACE9FCE7F3C3D43 /* GreedCategory.xcconfig */,
-				34D31152EB604A203CB635F9E589685F /* GreedCategory-dummy.m */,
-				86D571D977547877B4DC531AFD3D7441 /* GreedCategory-prefix.pch */,
+				D92A88CD63E47BDFA86898FBBBCFCE65 /* WechatAuthSDK.h */,
+				BC8F65F8BF490BCD492B6C28E46FA129 /* WXApi.h */,
+				03CCF777D8CC8631676D8A50CB82985F /* WXApiObject.h */,
+				E5DA188C5AA249CCBB3FE0C3E2DC4E83 /* Frameworks */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/GreedCategory";
-			sourceTree = "<group>";
-		};
-		55A786E6EA03B3D4E6445CAA341664DB /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				6F3AF331ADE5C3F697CF4CF72941CC88 /* libWeiboSDK.a */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		5AA5B07E0DE15C6B17F8E1A119508570 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				F496010BE9DBF1FCAFFA4CCCB60B1030 /* GreedSocialSDK.xcconfig */,
-				EE5BA626DDC5C6149196FF3E2BFB9842 /* GreedSocialSDK-dummy.m */,
-				BA104F9BBD2EFD4EE30EC04CB200BD5E /* GreedSocialSDK-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "Pods/Target Support Files/GreedSocialSDK";
+			path = "GreedWeChatSDK-iOS";
 			sourceTree = "<group>";
 		};
 		635BD25CF64B17BE1824AAB9DF63F6E7 /* Products */ = {
@@ -298,69 +265,90 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		6AAD637C9CF369AA491F58AA2089A98E /* Pods */ = {
+		639D9199C4FA37A92EC0DEB5A458CF55 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				7531F48023ED9BD3B452EA63C189C939 /* GreedCategory */,
-				9C847DE418ADDFB2F88CD795BE6F2BCB /* GreedTencentOpenAPI */,
-				2AC49415EF9BE26117F7B0142492E7BC /* GreedWeChatSDK */,
-				B718204B793E13C15610D3A25A6D0E96 /* WeiboSDK */,
+				58AA2EA6C94F569B8EBEF58CE1A1E97F /* GreedCategory.xcconfig */,
+				7589E54E51346B130CCCA9516D2E817A /* GreedCategory-dummy.m */,
+				FDE6671131D49F3127D0A32A14DF8D2B /* GreedCategory-prefix.pch */,
 			);
-			name = Pods;
+			name = "Support Files";
+			path = "../Target Support Files/GreedCategory";
 			sourceTree = "<group>";
 		};
-		7531F48023ED9BD3B452EA63C189C939 /* GreedCategory */ = {
+		66E8945920BB363EE0FB3A72B3AA8D09 /* All */ = {
 			isa = PBXGroup;
 			children = (
-				A00C7E75B20565EBC8DD15B092D6FC16 /* CLLocation+Greed.h */,
-				A3663444EB268B4388A3ACDD34C0D99F /* CLLocation+Greed.m */,
-				09A360E1F187030A4309BA0F17AD5DC7 /* NSDate+Greed.h */,
-				9D3A6D1A5F395F619E0553526ABEBBF8 /* NSDate+Greed.m */,
-				FB09E76E8FF9EFA838FF7583AFBEE274 /* NSObject+Greed.h */,
-				6834594E6F89528DC55360DAA31083AE /* NSObject+Greed.m */,
-				41EC77A202E9A03456414ED8660C956B /* NSString+Greed.h */,
-				8ECC93F631AA02B8D23A86907AD22435 /* NSString+Greed.m */,
-				3EB5DA5AF163EBBB6B2B8ED18360E219 /* UIImage+Greed.h */,
-				29957B9CE9C9B9B7F86DE5DE373CE0DE /* UIImage+Greed.m */,
-				9BB489CDB8CAA1055249BDA2928E8429 /* UILabel+Greed.h */,
-				108963E34B06AB66A8EC191176BBAA64 /* UILabel+Greed.m */,
-				628FD763CFF2F529A04023183FE1D68B /* UITextView+Greed.h */,
-				ED709E73E91FC70B6896FC800433EBFB /* UITextView+Greed.m */,
-				48FBD910A356F91EE0722A91A95C58E2 /* UIView+Greed.h */,
-				3E44F1C3133B24E12602847234F5C2C7 /* UIView+Greed.m */,
-				BFF6B9C2150CAF86579778FC631AFB17 /* UIWindow+Greed.h */,
-				B7AEEC070B9B0DA36719D2106566A147 /* UIWindow+Greed.m */,
-				551EC792708F735E5C73F00CCA172AF8 /* Support Files */,
+				8BDDE65E5EB7C016C2BA69B457F499CE /* Frameworks */,
+				76B91AF02B4798FA255FB0864C1A6020 /* Resources */,
 			);
-			path = GreedCategory;
+			name = All;
+			sourceTree = "<group>";
+		};
+		69FEEF5A4F9BD92CA8F3577ABAB8A05E /* GreedSocialSDK */ = {
+			isa = PBXGroup;
+			children = (
+				3B1F454FC8B6A9E30B903246B23C386E /* GreedSocialSDK */,
+				4A3A6F2A122B8392BDE8609412B950BE /* Resources */,
+				385D59FFFA9B2F58324C89A36693B371 /* Support Files */,
+			);
+			name = GreedSocialSDK;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		76B91AF02B4798FA255FB0864C1A6020 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E0A7EAD96E5D76C34D4245968B8F07FF /* TencentOpenApi_IOS_Bundle.bundle */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
-				0B5FFB03EA354395F8681D3D0972CA74 /* Development Pods */,
+				B6149A3827C00C23EBA561CF86D6083A /* Development Pods */,
 				14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */,
-				6AAD637C9CF369AA491F58AA2089A98E /* Pods */,
+				85CC2A70CF2A35C6FAEE8612380A8623 /* Pods */,
 				635BD25CF64B17BE1824AAB9DF63F6E7 /* Products */,
 				037C0CA694176A3C0915F62C9D20B3E6 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		8D6BD43E9C4251AF2E310B4DD97A7446 /* Resources */ = {
+		8369DA0FF43D7581524FD73694652412 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				EB7BAE2A54DED17184FF8DE8808F76D1 /* WeiboSDK.bundle */,
+				6C34428614795B60674BADD7548051F0 /* WeiboSDK.bundle */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		9C847DE418ADDFB2F88CD795BE6F2BCB /* GreedTencentOpenAPI */ = {
+		85CC2A70CF2A35C6FAEE8612380A8623 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				0D2B8D857D0D6F9B0A4F684AC6219A19 /* All */,
+				CCFCA84221253E63C4E77C6C8218D71C /* GreedCategory */,
+				4903E27FBDDC033AD3F3C0342D5C06F4 /* GreedTencentOpenAPI */,
+				5BF35555404FC76EA3C10E4EBE6C75DF /* GreedWeChatSDK-iOS */,
+				D002A7182A81D85AEA03E2155D47994E /* WeiboSDK */,
 			);
-			path = GreedTencentOpenAPI;
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8BDDE65E5EB7C016C2BA69B457F499CE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				97349A967FEF8EF3509791AD8406B22A /* TencentOpenAPI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8FCE23A9AADF96933E05EC05BB60A8F4 /* GreedSocialSDK */ = {
+			isa = PBXGroup;
+			children = (
+				BCC26501027828D4EA06AA47BE7F2628 /* Resource */,
+			);
+			path = GreedSocialSDK;
 			sourceTree = "<group>";
 		};
 		A3EAEE904F3CFB1E7A2BF6A3DA7659B0 /* iOS */ = {
@@ -389,49 +377,84 @@
 			path = "Target Support Files/Pods";
 			sourceTree = "<group>";
 		};
-		B718204B793E13C15610D3A25A6D0E96 /* WeiboSDK */ = {
+		B6149A3827C00C23EBA561CF86D6083A /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				D435BD5E3237CCB9D48723C955CC679E /* WBHttpRequest.h */,
-				39269928C0B16260C292FDDC85360476 /* WBHttpRequest+WeiboGame.h */,
-				10FD42C88BB02C8F3BA535F210C8AD8B /* WBHttpRequest+WeiboShare.h */,
-				4920D13F786BAC977BC8451E46800BFF /* WBHttpRequest+WeiboToken.h */,
-				72E9181CA4A3BDD5164EB8FEBBDF0192 /* WBHttpRequest+WeiboUser.h */,
-				097CCA4AEF3943AD46AD71D0567FEAE6 /* WBSDKBasicButton.h */,
-				0C15042D5BD7D3934B8BA02E62A21F12 /* WBSDKCommentButton.h */,
-				BFE171E47FEF2C1D86CD3121E0E4CEF1 /* WBSDKRelationshipButton.h */,
-				B768B4FBB5CF479417E353E684560953 /* WeiboSDK.h */,
-				ED55EC8F0186C0DE3855D43381408D14 /* WeiboUser.h */,
-				55A786E6EA03B3D4E6445CAA341664DB /* Frameworks */,
-				8D6BD43E9C4251AF2E310B4DD97A7446 /* Resources */,
+				69FEEF5A4F9BD92CA8F3577ABAB8A05E /* GreedSocialSDK */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		BCC26501027828D4EA06AA47BE7F2628 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				7F2D8191E63FECA587653A86C4F10254 /* gr_share_pengyouquan.png */,
+				8CCFCCF5DE8C81969851E9EF801EA6A9 /* gr_share_pengyouquan@2x.png */,
+				08585FCBF07AD9E826F02482FF0CF160 /* gr_share_pengyouquan@3x.png */,
+				D76FE9288B30439D79B394FF9C30D65A /* gr_share_qq.png */,
+				D827221BD0F3D2F2AE9B93B73D6B3273 /* gr_share_qq@2x.png */,
+				E1C586F09743EEC4F80D1C8F8D6FAF60 /* gr_share_qq@3x.png */,
+				F5FFDB3C5E832F96A600C363CCA8C813 /* gr_share_weibo.png */,
+				49F73A8FF15277EBA6DA427AB89F9795 /* gr_share_weibo@2x.png */,
+				1642A8310615C7D55766A6636222FB66 /* gr_share_weibo@3x.png */,
+				7598E3D368C411912167736364CF369B /* gr_share_weixin.png */,
+				BA429AD19C38BE27D523AFCF2D1C2DEC /* gr_share_weixin@2x.png */,
+				00D4F64EB5EE35F05020E3ED795AD44F /* gr_share_weixin@3x.png */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		CCFCA84221253E63C4E77C6C8218D71C /* GreedCategory */ = {
+			isa = PBXGroup;
+			children = (
+				76B42B53304B82BE9F9CD170A31646DB /* CLLocation+Greed.h */,
+				E3BFAA623891160299521D633A6CB720 /* CLLocation+Greed.m */,
+				A22973CFE73126ECF39A13CAD4CD7753 /* NSDate+Greed.h */,
+				3769B09E2E615AA61B2ECB3B147A8B7C /* NSDate+Greed.m */,
+				FF3401707D824B536D53E208FE13E38F /* NSObject+Greed.h */,
+				2E498A4BCCD2866AD8F964E0BFFAFFE4 /* NSObject+Greed.m */,
+				8359FE151A646CA85C97C5C74A37D160 /* NSString+Greed.h */,
+				9C15303E784248C84067D4501FB7E812 /* NSString+Greed.m */,
+				686D5613079A88C0BB1EECE3124B52C4 /* UIImage+Greed.h */,
+				D4ACD7108F89694077F3ECE065B42230 /* UIImage+Greed.m */,
+				C8D754A213CA1D51C2CB317BC63CF8C4 /* UILabel+Greed.h */,
+				47760EC55CB992DBF91C2ECB63D1AE28 /* UILabel+Greed.m */,
+				99BE30CFF0C7F7FBBB3178C3A7C120D6 /* UITextView+Greed.h */,
+				C33CC90F28F71E8870713C8D44E70709 /* UITextView+Greed.m */,
+				F90859EB0A336D7179FF6E4258709586 /* UIView+Greed.h */,
+				EA9B86AD6D4D745A2205A8A95C7F4FF8 /* UIView+Greed.m */,
+				DF88B71E096076CCC555FB5FF27B0677 /* UIWindow+Greed.h */,
+				3B80DB415FE635C26E3D134F211D1280 /* UIWindow+Greed.m */,
+				639D9199C4FA37A92EC0DEB5A458CF55 /* Support Files */,
+			);
+			path = GreedCategory;
+			sourceTree = "<group>";
+		};
+		D002A7182A81D85AEA03E2155D47994E /* WeiboSDK */ = {
+			isa = PBXGroup;
+			children = (
+				E1C76E430D0C711BE1646C779FC9924B /* WBHttpRequest.h */,
+				C2EC7092887D7778A461DF52B145B6A0 /* WBHttpRequest+WeiboGame.h */,
+				1CDF2C9B57EF599AEB9BB0C95A66C857 /* WBHttpRequest+WeiboShare.h */,
+				53CE8AFC967BB8392C3B1ED9B4469116 /* WBHttpRequest+WeiboToken.h */,
+				EACAB1ED3D3CB61CEF4419B24CA7E862 /* WBHttpRequest+WeiboUser.h */,
+				33855B1DDCE7613C8F6E86993493FC3B /* WBSDKBasicButton.h */,
+				F2FDA68B4C7E5EB9DC2117BA8D8842B8 /* WBSDKCommentButton.h */,
+				2FFB5FCD074DFE59190972BDFD716E3A /* WBSDKRelationshipButton.h */,
+				8CD434F41542A90CB5FC28527BAD2176 /* WeiboSDK.h */,
+				5A5309C32BD1DDE1613DAFFCEF456FCF /* WeiboUser.h */,
+				2A28FEF20CB8986714853CA763D7EF25 /* Frameworks */,
+				8369DA0FF43D7581524FD73694652412 /* Resources */,
 			);
 			path = WeiboSDK;
 			sourceTree = "<group>";
 		};
-		B835195C98A67A897270B10F0B7974DC /* GreedSocialSDK */ = {
+		E5DA188C5AA249CCBB3FE0C3E2DC4E83 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				2A88A3BD6F15B9C5D23F14C27F1C7A5E /* GreedSocialSDK */,
-				5AA5B07E0DE15C6B17F8E1A119508570 /* Support Files */,
-			);
-			name = GreedSocialSDK;
-			path = ..;
-			sourceTree = "<group>";
-		};
-		E3D1E8D42E3B6F7929C55437A60F476B /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				6D4D9D4C51E4D08B5A1EE808493507D4 /* TencentOpenAPI.framework */,
+				04FADBA7D686165F60ABF2FF23B7CE19 /* libWeChatSDK.a */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		F0DF523A650C478D2BBA231F608D5536 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				377941EA7D46F051984D9C0150576B14 /* TencentOpenApi_IOS_Bundle.bundle */,
-			);
-			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -453,31 +476,32 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4A79A3B6210AC75FA2B2195BB6720121 /* Headers */ = {
+		545C3E7EE9B0CE34A216A7D10A279B28 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F61F13D84966E9087F661424CAA5DDE9 /* GreedSocialSDK.h in Headers */,
-				912808DBF0E476EC4E35AACA72D30536 /* GRLoginModel.h in Headers */,
-				0508C5F23BE7BD54C0B915238C4875BA /* GRShareModel.h in Headers */,
-				4CBB836C8C941F6CC8EF29DFF7D358D3 /* GRSocial.h in Headers */,
+				6A62184668F02DD470BEA5B476479CD2 /* GreedSocialSDK.h in Headers */,
+				DB8B6B2E71FE0F3D83EE38C74AB7EBD9 /* GRLoginModel.h in Headers */,
+				1D6397972E70F922C9A8CC0B9FB97246 /* GRShareModel.h in Headers */,
+				B77EDA9C4CE082B5E8E796DDE06A1795 /* GRSocial.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		4D6A44BC8F129D310E24D1E095884194 /* GreedSocialSDK */ = {
+		A0177C5FEA48D615546B5388C1FF184D /* GreedSocialSDK */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E3D18107F6D7D5218D30152AAFD0C04B /* Build configuration list for PBXNativeTarget "GreedSocialSDK" */;
+			buildConfigurationList = E6BC95BC41CF1D41D9D235F071938CE1 /* Build configuration list for PBXNativeTarget "GreedSocialSDK" */;
 			buildPhases = (
-				757DD0CA0C138F9495F6EE780CF98938 /* Sources */,
-				28812DD1903A9029770DB016E98B9454 /* Frameworks */,
-				4A79A3B6210AC75FA2B2195BB6720121 /* Headers */,
+				0DF508C46E4F6A0231A1B9C81C693D32 /* Sources */,
+				C45E2843B92E75D4909658423366A80F /* Frameworks */,
+				545C3E7EE9B0CE34A216A7D10A279B28 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				BAD3A0AD43D747D2EEE9A59B767B801B /* PBXTargetDependency */,
 			);
 			name = GreedSocialSDK;
 			productName = GreedSocialSDK;
@@ -526,7 +550,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0700;
-				LastUpgradeCheck = 0720;
+				LastUpgradeCheck = 0700;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -541,21 +565,21 @@
 			projectRoot = "";
 			targets = (
 				CC9EB3FC69F23C207333CF42F77AF715 /* GreedCategory */,
-				4D6A44BC8F129D310E24D1E095884194 /* GreedSocialSDK */,
+				A0177C5FEA48D615546B5388C1FF184D /* GreedSocialSDK */,
 				F530E6AB7A928B521B58C6959587FA6A /* Pods */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		757DD0CA0C138F9495F6EE780CF98938 /* Sources */ = {
+		0DF508C46E4F6A0231A1B9C81C693D32 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				79DB5CAEFF9C55C8D8B84D3A65B4F1F8 /* GreedSocialSDK-dummy.m in Sources */,
-				3CAC9CFBF1126FAC33A9B778AC56CC30 /* GRLoginModel.m in Sources */,
-				56136DB6D10182255F2CB128E84A5EE0 /* GRShareModel.m in Sources */,
-				5BDE14F13B8A9E2B1D2B7D4E21E52229 /* GRSocial.m in Sources */,
+				E8A2C552B8A1B8DF615B4EB1143F2319 /* GreedSocialSDK-dummy.m in Sources */,
+				C2F8470E959C412CDF139D668B07761D /* GRLoginModel.m in Sources */,
+				E57B0958519FB632DA2B9C8FA07B7919 /* GRShareModel.m in Sources */,
+				FEA4713338C65729A58E9C8833A7D8A6 /* GRSocial.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -593,15 +617,39 @@
 			target = CC9EB3FC69F23C207333CF42F77AF715 /* GreedCategory */;
 			targetProxy = 2A1AE15655B06121E75AF37163008710 /* PBXContainerItemProxy */;
 		};
+		BAD3A0AD43D747D2EEE9A59B767B801B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GreedCategory;
+			target = CC9EB3FC69F23C207333CF42F77AF715 /* GreedCategory */;
+			targetProxy = 0BF0B08B8116A61328770C38F5126611 /* PBXContainerItemProxy */;
+		};
 		DA1AC3A79A8471EA21CE1BD7DB28A951 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = GreedSocialSDK;
-			target = 4D6A44BC8F129D310E24D1E095884194 /* GreedSocialSDK */;
+			target = A0177C5FEA48D615546B5388C1FF184D /* GreedSocialSDK */;
 			targetProxy = 8150F6E8BFBEBE93F8E9770C50A50A7F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		044A4ADDB021765B5FC4C863F0FE244A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECD18E6B57533AAC01BC23D336FFF71F /* GreedSocialSDK.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/GreedSocialSDK/GreedSocialSDK-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
 		17E07120CCD0387948FD1A10EF6043A3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 98C98CDFB3F20F2925F6CD1F141BB14F /* Pods.release.xcconfig */;
@@ -618,24 +666,6 @@
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
-		};
-		25EC1F37348F480AC1A530BC5FEB139C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F496010BE9DBF1FCAFFA4CCCB60B1030 /* GreedSocialSDK.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/GreedSocialSDK/GreedSocialSDK-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
 		};
 		6569F07DC21AD8B72752685013E3D9D8 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -655,7 +685,6 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
-				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -694,24 +723,6 @@
 			};
 			name = Debug;
 		};
-		7D9AAC5B2C896697252596EC2A1A46C2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F496010BE9DBF1FCAFFA4CCCB60B1030 /* GreedSocialSDK.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/GreedSocialSDK/GreedSocialSDK-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
 		A14E2444F162A20E3776820E0ADFFB52 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -746,9 +757,27 @@
 			};
 			name = Release;
 		};
+		C8B991C224A4B0F2E99E2ECFBE324B43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECD18E6B57533AAC01BC23D336FFF71F /* GreedSocialSDK.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/GreedSocialSDK/GreedSocialSDK-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 		C94CC8BB18F1F73CB594F0ED2CEDFA3B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C2CED85830039E1F7ACE9FCE7F3C3D43 /* GreedCategory.xcconfig */;
+			baseConfigurationReference = 58AA2EA6C94F569B8EBEF58CE1A1E97F /* GreedCategory.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/GreedCategory/GreedCategory-prefix.pch";
@@ -766,7 +795,7 @@
 		};
 		EF449A349388A46D0625656B2A8F288C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C2CED85830039E1F7ACE9FCE7F3C3D43 /* GreedCategory.xcconfig */;
+			baseConfigurationReference = 58AA2EA6C94F569B8EBEF58CE1A1E97F /* GreedCategory.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/GreedCategory/GreedCategory-prefix.pch";
@@ -803,11 +832,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E3D18107F6D7D5218D30152AAFD0C04B /* Build configuration list for PBXNativeTarget "GreedSocialSDK" */ = {
+		E6BC95BC41CF1D41D9D235F071938CE1 /* Build configuration list for PBXNativeTarget "GreedSocialSDK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				25EC1F37348F480AC1A530BC5FEB139C /* Debug */,
-				7D9AAC5B2C896697252596EC2A1A46C2 /* Release */,
+				044A4ADDB021765B5FC4C863F0FE244A /* Debug */,
+				C8B991C224A4B0F2E99E2ECFBE324B43 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

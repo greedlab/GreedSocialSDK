@@ -58,10 +58,34 @@ install_resource()
   esac
 }
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_resource "../GreedSocialSDK/Resource/gr_share_pengyouquan.png"
+  install_resource "../GreedSocialSDK/Resource/gr_share_pengyouquan@2x.png"
+  install_resource "../GreedSocialSDK/Resource/gr_share_pengyouquan@3x.png"
+  install_resource "../GreedSocialSDK/Resource/gr_share_qq.png"
+  install_resource "../GreedSocialSDK/Resource/gr_share_qq@2x.png"
+  install_resource "../GreedSocialSDK/Resource/gr_share_qq@3x.png"
+  install_resource "../GreedSocialSDK/Resource/gr_share_weibo.png"
+  install_resource "../GreedSocialSDK/Resource/gr_share_weibo@2x.png"
+  install_resource "../GreedSocialSDK/Resource/gr_share_weibo@3x.png"
+  install_resource "../GreedSocialSDK/Resource/gr_share_weixin.png"
+  install_resource "../GreedSocialSDK/Resource/gr_share_weixin@2x.png"
+  install_resource "../GreedSocialSDK/Resource/gr_share_weixin@3x.png"
   install_resource "GreedTencentOpenAPI/All/TencentOpenApi_IOS_Bundle.bundle"
   install_resource "WeiboSDK/libWeiboSDK/WeiboSDK.bundle"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_resource "../GreedSocialSDK/Resource/gr_share_pengyouquan.png"
+  install_resource "../GreedSocialSDK/Resource/gr_share_pengyouquan@2x.png"
+  install_resource "../GreedSocialSDK/Resource/gr_share_pengyouquan@3x.png"
+  install_resource "../GreedSocialSDK/Resource/gr_share_qq.png"
+  install_resource "../GreedSocialSDK/Resource/gr_share_qq@2x.png"
+  install_resource "../GreedSocialSDK/Resource/gr_share_qq@3x.png"
+  install_resource "../GreedSocialSDK/Resource/gr_share_weibo.png"
+  install_resource "../GreedSocialSDK/Resource/gr_share_weibo@2x.png"
+  install_resource "../GreedSocialSDK/Resource/gr_share_weibo@3x.png"
+  install_resource "../GreedSocialSDK/Resource/gr_share_weixin.png"
+  install_resource "../GreedSocialSDK/Resource/gr_share_weixin@2x.png"
+  install_resource "../GreedSocialSDK/Resource/gr_share_weixin@3x.png"
   install_resource "GreedTencentOpenAPI/All/TencentOpenApi_IOS_Bundle.bundle"
   install_resource "WeiboSDK/libWeiboSDK/WeiboSDK.bundle"
 fi

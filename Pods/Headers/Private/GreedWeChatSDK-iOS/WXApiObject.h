@@ -1,0 +1,1 @@
+../../../GreedWeChatSDK-iOS/WXApiObject.h

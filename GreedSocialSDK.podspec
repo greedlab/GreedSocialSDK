@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.framework  = "Foundation","UIKIT"
   s.requires_arc = true
   s.dependency "GreedTencentOpenAPI"
-  s.dependency "GreedWeChatSDK"
+  s.dependency "GreedWeChatSDK-iOS"
   s.dependency "WeiboSDK"
   s.dependency "GreedCategory"
 
