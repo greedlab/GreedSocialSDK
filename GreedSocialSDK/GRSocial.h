@@ -69,8 +69,6 @@ typedef NS_ENUM(NSInteger, GRSocialType) {
 @property (nonatomic, assign) GRLoginType loginType;
 @property (nonatomic, strong) TencentOAuth *tencentOAuth;
 @property (nonatomic, weak) id<GRSocialDelegate> delegate;
-@property (nonatomic, strong) NSString *weixinSecrit;
-@property (nonatomic, strong) NSString *weixinAppId;
 
 /**
  *  单例
@@ -81,7 +79,7 @@ typedef NS_ENUM(NSInteger, GRSocialType) {
 
 // 注册
 - (void)registerWeiboWithAppId:(NSString *)appId;
-- (void)registerWeiXinWithAppId:(NSString *)appId secrit:(NSString *)secrit description:(NSString *)description;
+- (void)registerWeiXinWithAppId:(NSString *)appId description:(NSString *)description;
 - (void)registerQQWithAppId:(NSString *)appId;
 
 - (BOOL)canWeixinShare;

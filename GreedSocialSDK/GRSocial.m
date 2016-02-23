@@ -27,9 +27,7 @@
     [WeiboSDK registerApp:appId];
 }
 
-- (void)registerWeiXinWithAppId:(NSString *)appId secrit:(NSString *)secrit description:(NSString *)description {
-    self.weixinAppId = appId;
-    self.weixinSecrit = secrit;
+- (void)registerWeiXinWithAppId:(NSString *)appId description:(NSString *)description {
     [WXApi registerApp:appId withDescription:description];
 }
 
@@ -431,40 +429,48 @@
 - (void)onResp:(id)resp {
     if (_socialType == GRSocialTypeLogin) {                              // 登陆
         if (_loginType == GRLoginTypeWeiXin) { // 微信登陆
-            SendAuthResp *sendAuthResp = (SendAuthResp *) resp;
-            if (sendAuthResp.errCode == 0) {
-                NSLog(@"weixin login success");
-                if ([self.delegate respondsToSelector:@selector(didWeiXinLoginSuccess:sender:)]) {
-                    [self.delegate didWeiXinLoginSuccess:sendAuthResp sender:self];
+            if ([resp isKindOfClass:[SendAuthResp class]]) {
+                SendAuthResp *sendAuthResp = (SendAuthResp *) resp;
+                if (sendAuthResp.errCode == 0) {
+                    NSLog(@"weixin login success");
+                    if ([self.delegate respondsToSelector:@selector(didWeiXinLoginSuccess:sender:)]) {
+                        [self.delegate didWeiXinLoginSuccess:sendAuthResp sender:self];
+                    }
                 }
             }
         }
     } else {                               // 分享
         if (_shareType == GRShareTypeQQ) { // QQ分享
-            QQBaseResp *qqResp = resp;
-            if ([qqResp.result intValue] == 0) {
-                // qq分享成功
-                NSLog(@"QQ share success");
-                if ([self.delegate respondsToSelector:@selector(didQQShareSuccess:sender:)]) {
-                    [self.delegate didQQShareSuccess:qqResp sender:self];
+            if ([resp isKindOfClass:[QQBaseResp class]]) {
+                QQBaseResp *qqResp = resp;
+                if ([qqResp.result intValue] == 0) {
+                    // qq分享成功
+                    NSLog(@"QQ share success");
+                    if ([self.delegate respondsToSelector:@selector(didQQShareSuccess:sender:)]) {
+                        [self.delegate didQQShareSuccess:qqResp sender:self];
+                    }
                 }
             }
         } else if (_shareType == GRShareTypeWeiXin) { // 微信好友分享
-            BaseResp *wxResp = resp;
-            if (wxResp.errCode == 0) {
-                // 微信分享成功;
-                NSLog(@"weixin share success");
-                if ([self.delegate respondsToSelector:@selector(didWeiXinShareSuccess:sender:)]) {
-                    [self.delegate didWeiXinShareSuccess:wxResp sender:self];
+            if ([resp isKindOfClass:[BaseResp class]]) {
+                BaseResp *wxResp = resp;
+                if (wxResp.errCode == 0) {
+                    // 微信分享成功;
+                    NSLog(@"weixin share success");
+                    if ([self.delegate respondsToSelector:@selector(didWeiXinShareSuccess:sender:)]) {
+                        [self.delegate didWeiXinShareSuccess:wxResp sender:self];
+                    }
                 }
             }
         } else if (_shareType == GRShareTypePengYouQuan) { // 朋友圈分享
-            BaseResp *wxResp = resp;
-            if (wxResp.errCode == 0) {
-                // 朋友圈分享成功;
-                NSLog(@"pengyouquan share success");
-                if ([self.delegate respondsToSelector:@selector(didPengYouQuanShareSuccess:sender:)]) {
-                    [self.delegate didPengYouQuanShareSuccess:wxResp sender:self];
+            if ([resp isKindOfClass:[BaseResp class]]) {
+                BaseResp *wxResp = resp;
+                if (wxResp.errCode == 0) {
+                    // 朋友圈分享成功;
+                    NSLog(@"pengyouquan share success");
+                    if ([self.delegate respondsToSelector:@selector(didPengYouQuanShareSuccess:sender:)]) {
+                        [self.delegate didPengYouQuanShareSuccess:wxResp sender:self];
+                    }
                 }
             }
         }
