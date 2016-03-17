@@ -136,6 +136,7 @@ typedef NS_ENUM(NSInteger, GRSocialType) {
 - (void)loginWeiBoWithRedirectURI:(NSString *)redirectURI
                          delegate:(id<GRSocialDelegate>)delegate;
 - (void)loginWeiXinWithdelegate:(id<GRSocialDelegate>)delegate;
+- (void)loginWeiXinWithViewController:(UIViewController*)viewController delegate:(id<GRSocialDelegate>)delegate;
 
 #pragma mark - share
 

@@ -40,7 +40,8 @@
 }
 
 - (BOOL)canWeixinLogin {
-    return [WXApi isWXAppInstalled];
+    return YES;
+//    return [WXApi isWXAppInstalled];
 }
 
 - (BOOL)canWeiboShare {
@@ -252,13 +253,17 @@
 }
 
 - (void)loginWeiXinWithdelegate:(id<GRSocialDelegate>)delegate {
+    [self loginWeiXinWithViewController:nil delegate:delegate];
+}
+
+- (void)loginWeiXinWithViewController:(UIViewController*)viewController delegate:(id<GRSocialDelegate>)delegate {
     self.delegate = delegate;
     self.socialType = GRSocialTypeLogin;
     self.loginType = GRLoginTypeWeiXin;
     SendAuthReq *req = [[SendAuthReq alloc] init];
     req.scope = @"snsapi_userinfo";
-    req.state = @"123";
-    [WXApi sendReq:req];
+    req.state = @"login";
+    [WXApi sendAuthReq:req viewController:viewController delegate:self];
 }
 
 - (void)loginWeiBoWithRedirectURI:(NSString *)redirectURI
