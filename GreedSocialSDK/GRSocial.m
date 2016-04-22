@@ -351,7 +351,9 @@
     message.title = title;
     message.description = content;
     image = [image gr_reSizeToMaxSize:CGSizeMake(600.f, 600.f)];
-    [message setThumbImage:[image gr_imageWithMaxLength:32 * 1024]];
+    NSData *data = [image gr_dataWithMaxLength:32 * 1024];
+    [message setThumbData:data];
+//    [message setThumbImage:[image gr_imageWithMaxLength:32 * 1024]];
     WXWebpageObject *ext = [WXWebpageObject object];
     ext.webpageUrl = url;
     message.mediaObject = ext;
@@ -375,7 +377,9 @@
     newTitle = newTitle.length > 512 ? [newTitle substringToIndex:512] : newTitle;
     message.title = newTitle;
     image = [image gr_reSizeToMaxSize:CGSizeMake(600.f, 600.f)];
-    [message setThumbImage:[image gr_imageWithMaxLength:32 * 1024]];
+    NSData *data = [image gr_dataWithMaxLength:32 * 1024];
+    [message setThumbData:data];
+//    [message setThumbImage:[image gr_imageWithMaxLength:32 * 1024]];
     WXWebpageObject *ext = [WXWebpageObject object];
     ext.webpageUrl = url;
 

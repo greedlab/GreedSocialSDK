@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "GreedSocialSDK"
-  s.version      = "0.0.2"
+  s.version      = "0.0.3"
   s.summary      = "社交化SDK集成"
   s.homepage     = "https://github.com/greedlab/GreedSocialSDK"
   s.license      = "MIT"
