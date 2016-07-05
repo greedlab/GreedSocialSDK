@@ -40,8 +40,8 @@
 }
 
 - (BOOL)canWeixinLogin {
-    return YES;
-//    return [WXApi isWXAppInstalled];
+//    return YES;
+    return [WXApi isWXAppInstalled];
 }
 
 - (BOOL)canWeiboShare {
