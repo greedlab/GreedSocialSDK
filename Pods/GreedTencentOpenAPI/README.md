@@ -12,6 +12,7 @@ ios版腾讯开放平台SDK
 pod 'GreedTencentOpenAPI'
 ```
 
+
 ## LICENSE
 
 [MIT](LICENSE)

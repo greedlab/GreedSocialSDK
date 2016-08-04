@@ -45,7 +45,7 @@
 
 -(BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation
 {
-    if ([[GRSocial getInstance] handleApplication:app openURL:url]) {
+    if ([[GRSocial getInstance] handleApplication:application openURL:url]) {
         return YES;
     }
     // handle other

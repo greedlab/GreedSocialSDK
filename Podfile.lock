@@ -1,13 +1,13 @@
 PODS:
-  - GreedCategory (0.0.2)
-  - GreedSocialSDK (0.0.1):
+  - GreedCategory (0.0.3)
+  - GreedSocialSDK (0.1.1):
     - GreedCategory
-    - GreedTencentOpenAPI
+    - GreedTencentOpenAPI (= 2.9.5.1)
     - GreedWeChatSDK-iOS
     - WeiboSDK
-  - GreedTencentOpenAPI (2.9.5):
-    - GreedTencentOpenAPI/All (= 2.9.5)
-  - GreedTencentOpenAPI/All (2.9.5)
+  - GreedTencentOpenAPI (2.9.5.1):
+    - GreedTencentOpenAPI/All (= 2.9.5.1)
+  - GreedTencentOpenAPI/All (2.9.5.1)
   - GreedWeChatSDK-iOS (1.6.2)
   - WeiboSDK (3.1.3)
 
@@ -16,13 +16,15 @@ DEPENDENCIES:
 
 EXTERNAL SOURCES:
   GreedSocialSDK:
-    :path: ./
+    :path: "./"
 
 SPEC CHECKSUMS:
-  GreedCategory: c1bf15cfb4323fb2dec1b3a19f5757e89cb85852
-  GreedSocialSDK: 5bb03bf7cf8a7d25c9689cc4658769c1752b95ec
-  GreedTencentOpenAPI: 21bbbae7735aa5ee04e3e6099d9c486b9a23274c
+  GreedCategory: b4e0a5f22af4d878373fca7824672d57c9c32901
+  GreedSocialSDK: dbd3fcee028ce9dd0147e6cdc7b92f7e46baff51
+  GreedTencentOpenAPI: b4bde92bc290578b828e2ae371ffab828b1764fa
   GreedWeChatSDK-iOS: 30b0582211d57567f2c8526be387367e9234b7f9
   WeiboSDK: acb067053668102cf07d01aa7604350162c2e466
 
-COCOAPODS: 0.39.0
+PODFILE CHECKSUM: 192a485e1e25160dfa8f231164f357ff1affe893
+
+COCOAPODS: 1.0.1

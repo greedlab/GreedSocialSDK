@@ -2,7 +2,7 @@
 workspace 'GreedSocialSDK'
 
 # let ExampleUnitTests use pods
-link_with 'Example', 'ExampleUnitTests'
+#link_with 'Example', 'ExampleUnitTests'
 
 platform :ios, '6.0'
 
@@ -10,4 +10,16 @@ platform :ios, '6.0'
 xcodeproj 'Example/Example'
 
 # the path of .podspec
-pod 'GreedSocialSDK', :path => './'
+#pod 'GreedSocialSDK', :path => './'
+
+target 'Example' do
+    # the path of .podspec
+    pod 'GreedSocialSDK', :path => './'
+end
+
+target 'ExampleTests' do
+    # the path of .podspec
+    pod 'GreedSocialSDK', :path => './'
+end
+
+

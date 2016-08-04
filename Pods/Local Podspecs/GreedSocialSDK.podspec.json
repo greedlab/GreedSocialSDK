@@ -1,6 +1,6 @@
 {
   "name": "GreedSocialSDK",
-  "version": "0.0.1",
+  "version": "0.1.1",
   "summary": "社交化SDK集成",
   "homepage": "https://github.com/greedlab/GreedSocialSDK",
   "license": "MIT",
@@ -12,7 +12,7 @@
   },
   "source": {
     "git": "https://github.com/greedlab/GreedSocialSDK.git",
-    "tag": "0.0.1"
+    "tag": "0.1.1"
   },
   "source_files": [
     "GreedSocialSDK",
@@ -21,12 +21,12 @@
   "resources": "GreedSocialSDK/Resource/*",
   "frameworks": [
     "Foundation",
-    "UIKIT"
+    "UIKit"
   ],
   "requires_arc": true,
   "dependencies": {
     "GreedTencentOpenAPI": [
-
+      "2.9.5.1"
     ],
     "GreedWeChatSDK-iOS": [
 

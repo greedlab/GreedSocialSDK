@@ -225,30 +225,45 @@
     self.delegate = delegate;
     self.socialType = GRSocialTypeLogin;
     self.loginType = GRLoginTypeQQ;
+//    NSArray* permissions = [NSArray arrayWithObjects:
+//                            kOPEN_PERMISSION_GET_USER_INFO,
+//                            kOPEN_PERMISSION_GET_SIMPLE_USER_INFO,
+//                            kOPEN_PERMISSION_ADD_ALBUM,
+//                            kOPEN_PERMISSION_ADD_ONE_BLOG,
+//                            kOPEN_PERMISSION_ADD_SHARE,
+//                            kOPEN_PERMISSION_ADD_TOPIC,
+//                            kOPEN_PERMISSION_CHECK_PAGE_FANS,
+//                            kOPEN_PERMISSION_GET_INFO,
+//                            kOPEN_PERMISSION_GET_OTHER_INFO,
+//                            kOPEN_PERMISSION_LIST_ALBUM,
+//                            kOPEN_PERMISSION_UPLOAD_PIC,
+//                            kOPEN_PERMISSION_GET_VIP_INFO,
+//                            kOPEN_PERMISSION_GET_VIP_RICH_INFO,
+//                            nil];
     NSArray *permissions = [NSArray arrayWithObjects:
-                                        kOPEN_PERMISSION_GET_USER_INFO,
-                                        kOPEN_PERMISSION_GET_SIMPLE_USER_INFO,
-                                        kOPEN_PERMISSION_ADD_ALBUM,
-                                        kOPEN_PERMISSION_ADD_IDOL,
-                                        kOPEN_PERMISSION_ADD_ONE_BLOG,
-                                        kOPEN_PERMISSION_ADD_PIC_T,
-                                        kOPEN_PERMISSION_ADD_SHARE,
-                                        kOPEN_PERMISSION_ADD_TOPIC,
-                                        kOPEN_PERMISSION_CHECK_PAGE_FANS,
-                                        kOPEN_PERMISSION_DEL_IDOL,
-                                        kOPEN_PERMISSION_DEL_T,
-                                        kOPEN_PERMISSION_GET_FANSLIST,
-                                        kOPEN_PERMISSION_GET_IDOLLIST,
-                                        kOPEN_PERMISSION_GET_INFO,
-                                        kOPEN_PERMISSION_GET_OTHER_INFO,
-                                        kOPEN_PERMISSION_GET_REPOST_LIST,
-                                        kOPEN_PERMISSION_LIST_ALBUM,
-                                        kOPEN_PERMISSION_UPLOAD_PIC,
-                                        kOPEN_PERMISSION_GET_VIP_INFO,
-                                        kOPEN_PERMISSION_GET_VIP_RICH_INFO,
-                                        kOPEN_PERMISSION_GET_INTIMATE_FRIENDS_WEIBO,
-                                        kOPEN_PERMISSION_MATCH_NICK_TIPS_WEIBO,
-                                        nil];
+                            kOPEN_PERMISSION_GET_USER_INFO,
+                            kOPEN_PERMISSION_GET_SIMPLE_USER_INFO,
+                            kOPEN_PERMISSION_ADD_ALBUM,
+                            kOPEN_PERMISSION_ADD_IDOL,
+                            kOPEN_PERMISSION_ADD_ONE_BLOG,
+                            kOPEN_PERMISSION_ADD_PIC_T,
+                            kOPEN_PERMISSION_ADD_SHARE,
+                            kOPEN_PERMISSION_ADD_TOPIC,
+                            kOPEN_PERMISSION_CHECK_PAGE_FANS,
+                            kOPEN_PERMISSION_DEL_IDOL,
+                            kOPEN_PERMISSION_DEL_T,
+                            kOPEN_PERMISSION_GET_FANSLIST,
+                            kOPEN_PERMISSION_GET_IDOLLIST,
+                            kOPEN_PERMISSION_GET_INFO,
+                            kOPEN_PERMISSION_GET_OTHER_INFO,
+                            kOPEN_PERMISSION_GET_REPOST_LIST,
+                            kOPEN_PERMISSION_LIST_ALBUM,
+                            kOPEN_PERMISSION_UPLOAD_PIC,
+                            kOPEN_PERMISSION_GET_VIP_INFO,
+                            kOPEN_PERMISSION_GET_VIP_RICH_INFO,
+                            kOPEN_PERMISSION_GET_INTIMATE_FRIENDS_WEIBO,
+                            kOPEN_PERMISSION_MATCH_NICK_TIPS_WEIBO,
+                            nil];
     [_tencentOAuth authorize:permissions];
 }
 
@@ -433,7 +448,7 @@
  *
  * 收到一个来自微信的处理结果。调用一次sendReq后会收到onResp。
  * 可能收到的处理结果有SendMessageToWXResp、SendAuthResp等。
- * @param resp具体的回应内容，是自动释放的
+ * @param resp  具体的回应内容，是自动释放的
  */
 - (void)onResp:(id)resp {
     if (_socialType == GRSocialTypeLogin) {                              // 登陆

@@ -18,7 +18,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    [[GRSocial getInstance] registerWeiXinWithAppId:"WeiXinAppId" description:@"GreedSocialSDK"];
+    [[GRSocial getInstance] registerWeiXinWithAppId:@"WeiXinAppId" description:@"GreedSocialSDK"];
 }
 
 - (void)didReceiveMemoryWarning {

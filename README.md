@@ -21,7 +21,7 @@ pod 'GreedSocialSDK'
 有依赖的第三方库，所以`lint `和`push `时要加`--use-libraries`
 
 ```shell
-$ pod spec lint GreedSocialSDK.podspec --use-libraries --verbose --allow-warnings
+$ pod lib lint GreedSocialSDK.podspec --use-libraries --verbose --allow-warnings
 $ pod trunk push GreedSocialSDK.podspec  --use-libraries --verbose --allow-warnings
 ```
 

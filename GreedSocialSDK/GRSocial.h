@@ -10,6 +10,7 @@
 #import <TencentOpenAPI/QQApiInterface.h>
 #import <TencentOpenAPI/TencentOAuth.h>
 #import <TencentOpenAPI/TencentOAuthObject.h>
+#import <TencentOpenAPI/TencentApiInterface.h>
 
 #import "WXApi.h"
 #import "WXApiObject.h"

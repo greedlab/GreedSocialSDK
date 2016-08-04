@@ -1,7 +1,9 @@
 FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/GreedTencentOpenAPI/All"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
 HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/GreedCategory" "${PODS_ROOT}/Headers/Public/GreedSocialSDK" "${PODS_ROOT}/Headers/Public/GreedTencentOpenAPI" "${PODS_ROOT}/Headers/Public/GreedWeChatSDK-iOS" "${PODS_ROOT}/Headers/Public/WeiboSDK"
-LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/GreedWeChatSDK-iOS" $(inherited) "${PODS_ROOT}/WeiboSDK/libWeiboSDK"
+LIBRARY_SEARCH_PATHS = $(inherited) "$PODS_CONFIGURATION_BUILD_DIR/GreedCategory" "$PODS_CONFIGURATION_BUILD_DIR/GreedSocialSDK" $(inherited) "${PODS_ROOT}/GreedWeChatSDK-iOS" $(inherited) "${PODS_ROOT}/WeiboSDK/libWeiboSDK"
 OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/GreedCategory" -isystem "${PODS_ROOT}/Headers/Public/GreedSocialSDK" -isystem "${PODS_ROOT}/Headers/Public/GreedTencentOpenAPI" -isystem "${PODS_ROOT}/Headers/Public/GreedWeChatSDK-iOS" -isystem "${PODS_ROOT}/Headers/Public/WeiboSDK"
 OTHER_LDFLAGS = $(inherited) -ObjC -l"GreedCategory" -l"GreedSocialSDK" -l"WeChatSDK" -l"WeiboSDK" -l"c++" -l"iconv" -l"sqlite3" -l"sqlite3.0" -l"z" -framework "CoreGraphics" -framework "CoreLocation" -framework "CoreTelephony" -framework "CoreText" -framework "Foundation" -framework "ImageIO" -framework "QuartzCore" -framework "Security" -framework "SystemConfiguration" -framework "TencentOpenAPI" -framework "UIKIT" -framework "UIKit"
+PODS_BUILD_DIR = $BUILD_DIR
+PODS_CONFIGURATION_BUILD_DIR = $PODS_BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
 PODS_ROOT = ${SRCROOT}/../Pods
