@@ -29,7 +29,7 @@
 /**
  *  2014-5-9 to NSDate
  *
- *  @param dateString 2014-5-9
+ *  @param string   4-5-9
  *
  *  @return NSDate
  */
@@ -121,6 +121,12 @@
 - (BOOL)gr_isDateBetweenBeginDate:(NSDate *)begin endDate:(NSDate *)end;
 
 - (BOOL)gr_isYear:(NSInteger)year month:(NSInteger)month day:(NSInteger)day;
+
+
+/**
+ 是否为同一天 年月日相同 return YES
+ */
++ (BOOL)gr_isSameDay:(long long)aDay withDay:(long long)bDay;
 
 /**
  *  是否为本月

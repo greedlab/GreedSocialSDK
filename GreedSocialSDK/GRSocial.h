@@ -80,7 +80,8 @@ typedef NS_ENUM(NSInteger, GRSocialType) {
 
 // 注册
 - (void)registerWeiboWithAppId:(NSString *)appId;
-- (void)registerWeiXinWithAppId:(NSString *)appId description:(NSString *)description;
+- (void)registerWeiXinWithAppId:(NSString *)appId description:(NSString *)description __deprecated_msg("Method deprecated. Use `registerWeiXinWithAppId:`");
+- (void)registerWeiXinWithAppId:(NSString *)appId;
 - (void)registerQQWithAppId:(NSString *)appId;
 
 - (BOOL)canWeixinShare;

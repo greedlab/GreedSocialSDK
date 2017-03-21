@@ -28,7 +28,11 @@
 }
 
 - (void)registerWeiXinWithAppId:(NSString *)appId description:(NSString *)description {
-    [WXApi registerApp:appId withDescription:description];
+    [WXApi registerApp:appId];
+}
+
+- (void)registerWeiXinWithAppId:(NSString *)appId {
+    [WXApi registerApp:appId];
 }
 
 - (void)registerQQWithAppId:(NSString *)appId {
